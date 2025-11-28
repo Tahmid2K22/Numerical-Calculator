@@ -86,27 +86,27 @@ public:
     }
 };
 
-int main()
-{
-    long long n;
-    cin >> n;
-    vector<vector<double>> mat(n, vector<double>(n, 0.0));
-    for (long long i = 0; i < n; i++)
-    {
-        for (long long j = 0; j < n; j++)
-        {
-            cin >> mat[i][j];
-        }
-    }
-    inverse inv(mat, n);
-    vector<vector<double>> res = inv.naive_inversion();
-    for (long long i = 0; i < n; i++)
-    {
-        for (long long j = 0; j < n; j++)
-        {
-            cout << res[i][j] << " ";
-        }
-        cout << endl;
-    }
-    return 0;
-}
+// int main()
+// {
+//     long long n;
+//     cin >> n;
+//     vector<vector<double>> mat(n, vector<double>(n, 0.0));
+//     for (long long i = 0; i < n; i++)
+//     {
+//         for (long long j = 0; j < n; j++)
+//         {
+//             cin >> mat[i][j];
+//         }
+//     }
+//     inverse inv(mat, n);
+//     vector<vector<double>> res = inv.naive_inversion();
+//     for (long long i = 0; i < n; i++)
+//     {
+//         for (long long j = 0; j < n; j++)
+//         {
+//             cout << res[i][j] << " ";
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
