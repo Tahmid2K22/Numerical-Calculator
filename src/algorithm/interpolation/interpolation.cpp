@@ -7,39 +7,17 @@ Interpolation::Interpolation() {
     method = "NONE";
 }
 
-void Interpolation::input_data(ifstream &inp) {
-   
-    inp >> n;
-    cout << "Enter the number of data points: " << n << "\n";
-    x.resize(n);
-    y.resize(n);
-   
-    for (long long i = 0; i < n; i++) {
-        inp >> x[i] >> y[i];
-        cout << "Data Point " << i + 1 << ": (" << x[i] << ", " << y[i] << ")\n";
-    }
-   
-    inp >> target;
-    cout << "Enter the target value: " << target << "\n";
-    inp >> method;
-    cout << "Enter the interpolation method (forward, backward, div_diff): " << method << "\n";
-}
 
-void Interpolation::display_save(ofstream &out) {
-    out << "Data Points:\n";
-    for (long long i = 0; i < n; i++) {
-        out << x[i] << " " << y[i] << "\n";
-    }
-    out << "Result: " << result << "\n";
-    cout << "Result: " << result << "\n";
 
-}
+
 
 
 
 vector<double> Interpolation::cal_diff(vector<double> &y, long long diff, long long it)
 {
     vector<double> res;
+    if (y.size() <= 1)
+        return res;
     for (long long i = 1; i < (long long)y.size(); i++)
     {
         res.push_back(y[i] - y[i - 1]);
@@ -85,3 +63,49 @@ double Interpolation::f_interpolation()
     return res;
 }
 
+
+
+void Interpolation::input_data(ifstream &inp) {
+   
+    inp >> n;
+    x.resize(n);
+    y.resize(n);
+   
+    for (long long i = 0; i < n; i++) {
+        inp >> x[i] >> y[i];
+        //cout << "Data Point " << i + 1 << ": (" << x[i] << ", " << y[i] << ")\n";
+    }
+   
+    inp >> target;
+    inp >> method;
+    if(method=="NONE") {
+        dynamic_method_find();
+    }
+   
+}
+
+void Interpolation::display_save(ofstream &out) {
+    out << "Data Points:\n";
+    for (long long i = 0; i < n; i++) {
+        //out << x[i] << " " << y[i] << "\n";
+    }
+    out << "Result: " << result << "\n";
+    cout << "Result: " << result << "\n";
+
+}
+
+void Interpolation::dynamic_method_find()
+{
+    if(method!="NONE") return;
+    double h = x[1]-x[0];
+    for(int i=2;i<n;i++) {
+        if(abs((x[i]-x[i-1])-h)>1e-9) {
+            method="div_diff";
+            return;
+        }
+    }
+    if(abs(target-x[0])<=abs(target-x[n-1])) method="forward";
+    else method="backward";
+    
+    return;
+}

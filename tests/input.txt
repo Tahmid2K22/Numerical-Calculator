@@ -1,12 +1,12 @@
 interpolation
 5
-1 1
-2 8
-3 27
-4 64
-5 125
-2.5
-forward
+1891 46
+1901 66
+1911 81
+1921 93
+1931 101
+1925
+NONE
 
 interpolation
 6
@@ -17,7 +17,7 @@ interpolation
 50 2500
 60 3600
 57
-backward
+NONE
 
 interpolation
 4
@@ -26,14 +26,14 @@ interpolation
 9 20
 11 28
 7
-div_diff
+NONE
 
 interpolation
 2
 0 1
 10 5
 4
-div_diff
+NONE
 
 interpolation
 5
@@ -43,7 +43,7 @@ interpolation
 8 64
 10 100
 6
-forward
+NONE
 
 interpolation
 4
@@ -52,7 +52,7 @@ interpolation
 4 10
 6 25
 5
-div_diff
+NONE
 
 interpolation
 5
@@ -62,7 +62,7 @@ interpolation
 3 13
 4 21
 1.8
-forward
+NONE
 
 interpolation
 5
@@ -72,7 +72,7 @@ interpolation
 18 324
 20 400
 17
-backward
+NONE
 
 interpolation
 3
@@ -80,4 +80,18 @@ interpolation
 5 125
 9 729
 6
-div_diff
+NONE
+
+inversion
+4
+5 -2 2 7
+1 0 0 3
+-3 1 5 0
+3 -1 -9 4
+
+inversion
+2
+1 2
+2 3
+
+

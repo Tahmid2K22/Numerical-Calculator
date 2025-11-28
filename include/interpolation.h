@@ -20,4 +20,5 @@ public:
     double f_interpolation();
     void input_data(ifstream &inp);
     void display_save(ofstream &out);
+    void dynamic_method_find();
 };
