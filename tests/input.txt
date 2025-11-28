@@ -1,0 +1,83 @@
+interpolation
+5
+1 1
+2 8
+3 27
+4 64
+5 125
+2.5
+forward
+
+interpolation
+6
+10 100
+20 400
+30 900
+40 1600
+50 2500
+60 3600
+57
+backward
+
+interpolation
+4
+5 12
+6 13
+9 20
+11 28
+7
+div_diff
+
+interpolation
+2
+0 1
+10 5
+4
+div_diff
+
+interpolation
+5
+2 4
+4 16
+7 49
+8 64
+10 100
+6
+forward
+
+interpolation
+4
+1 2
+2 3
+4 10
+6 25
+5
+div_diff
+
+interpolation
+5
+0 1
+1 3
+2 7
+3 13
+4 21
+1.8
+forward
+
+interpolation
+5
+10 100
+12 144
+15 225
+18 324
+20 400
+17
+backward
+
+interpolation
+3
+2 8
+5 125
+9 729
+6
+div_diff

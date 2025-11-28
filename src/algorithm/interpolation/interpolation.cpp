@@ -3,7 +3,38 @@
 using namespace std;
 
 
-Interpolation::Interpolation(long long n, vector<double> &x, vector<double> &y) : n(n), x(x), y(y) {}
+Interpolation::Interpolation() {
+    method = "NONE";
+}
+
+void Interpolation::input_data(ifstream &inp) {
+   
+    inp >> n;
+    cout << "Enter the number of data points: " << n << "\n";
+    x.resize(n);
+    y.resize(n);
+   
+    for (long long i = 0; i < n; i++) {
+        inp >> x[i] >> y[i];
+        cout << "Data Point " << i + 1 << ": (" << x[i] << ", " << y[i] << ")\n";
+    }
+   
+    inp >> target;
+    cout << "Enter the target value: " << target << "\n";
+    inp >> method;
+    cout << "Enter the interpolation method (forward, backward, div_diff): " << method << "\n";
+}
+
+void Interpolation::display_save(ofstream &out) {
+    out << "Data Points:\n";
+    for (long long i = 0; i < n; i++) {
+        out << x[i] << " " << y[i] << "\n";
+    }
+    out << "Result: " << result << "\n";
+    cout << "Result: " << result << "\n";
+
+}
+
 
 
 vector<double> Interpolation::cal_diff(vector<double> &y, long long diff, long long it)
@@ -18,7 +49,7 @@ vector<double> Interpolation::cal_diff(vector<double> &y, long long diff, long l
     return res;
 }
 
-double Interpolation::f_interpolation(double val, string method)
+double Interpolation::f_interpolation()
 {
     vector<double> ndel_y = y;
     double coef = 1.0;
@@ -26,9 +57,9 @@ double Interpolation::f_interpolation(double val, string method)
     double v;
     long long diff = 0;
     if (method == "backward")
-        v = (val - x[n - 1]) / h;
+        v = (target - x[n - 1]) / h;
     if (method == "forward")
-        v = (val - x[0]) / h;
+        v = (target - x[0]) / h;
     if (method == "div_diff")
         diff = 1;
 
@@ -46,11 +77,11 @@ double Interpolation::f_interpolation(double val, string method)
             coef *= ((v + i) / (i + 1));
         else if (method == "div_diff")
         {
-            coef *= (val - x[i]);
+            coef *= (target - x[i]);
             it++;
         }
     }
-
+    result = res;
     return res;
 }
 
