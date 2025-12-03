@@ -10,4 +10,5 @@ add_executable(NumericalCalculator
     src/main.cpp
     src/algorithm/interpolation/interpolation.cpp
     src/algorithm/inverse/naive_inverse.cpp
+    src/algorithm/regression/regression.cpp
 )

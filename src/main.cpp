@@ -1,5 +1,6 @@
 #include "../include/interpolation.h"
 #include "../include/inversion.h"
+#include "../include/regression.h"
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -10,7 +11,6 @@ int main()
     string operation;
     out << fixed << setprecision(8);
 
-
     while (inp >> operation)
     {
         if (operation == "interpolation")
@@ -20,14 +20,36 @@ int main()
             in.f_interpolation();
             in.display_save(out);
         }
-        else if (operation == "inversion"){
+        else if (operation == "inversion")
+        {
             inverse inv;
             inv.input_data(inp);
             inv.naive_inversion();
             inv.display_save(out);
         }
-        else {
-            cout<<"Unknown Operation: "<<operation<<"\n";
+        else if (operation == "regression")
+        {
+            inp >> operation;
+            regression reg;
+            reg.input_data(inp);
+            double x_target;
+            inp >> x_target;
+            if (operation == "linear")
+            {
+                out << "Linear Regression: " << reg.linear_regress(x_target) << endl;
+            }
+            else if (operation == "power")
+            {
+                out << "Power Transcendental Regression: " << reg.transcen_regress_power(x_target) << endl;
+            }
+            else if (operation == "exponential")
+            {
+                out << "Exponential Transcendental Regression: " << reg.transcen_regress_exp(x_target) << endl;
+            }
+            else if (operation == "polynomial")
+            {
+                out << "Polynomial Regression: " << reg.poly_regress(x_target) << endl;
+            }
         }
     }
 
