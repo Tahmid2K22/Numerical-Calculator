@@ -12,7 +12,10 @@ public:
             if(ln){
                 x[i]=log(x[i]);
                 y[i]=log(y[i]);
+            }else if(ln==2){
+                y[i]=log(y[i]);
             }
+
             tx+=x[i];
             ty+=y[i];
             tx2+=x[i]*x[i];
@@ -28,11 +31,24 @@ public:
         }
         double b = (n*txy - tx*ty)/(n*tx2 - (tx)*(tx));
         double a = (ty-b*tx)/n;
-        if(ln) ((log(a)+b*log(x_target)));
+       
+        if(ln==1){
+             a = exp(a);
+             return a*exp(b*x_target);
+        }else if(ln==2){
+             a = exp(a);
+             return a*pow(x_target,b);
+        }
         return ((a+b*x_target));
     }
 
     double transcen_regress_power(double x_target){
-
+        cal_sum(1);
+        return linear_regress(x_target,1);
     }
+
+    double transcen_regress_exp(double x_target){
+        cal_sum(2);
+        return linear_regress(x_target,2);
+    } 
 };
