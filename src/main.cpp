@@ -1,6 +1,7 @@
 #include "../include/interpolation.h"
 #include "../include/inversion.h"
 #include "../include/regression.h"
+#include "../include/non-linear_equation.h"
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -50,6 +51,22 @@ int main()
             {
                 out << "Polynomial Regression: " << reg.poly_regress(x_target) << endl;
             }
+        }
+
+        else if(operation=="bisection")
+        {
+            Bisection bisec;
+            bisec.input_data(inp);
+            bisec.biSection();
+            bisec.display_save(out);
+
+        }
+        else if(operation=="falsi")
+        {
+            Falsi falsi;
+            falsi.input_data(inp);
+            falsi.falsePosition();
+            falsi.display_save(out);
         }
     }
 
