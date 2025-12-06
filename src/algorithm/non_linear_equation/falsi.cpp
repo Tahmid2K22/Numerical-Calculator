@@ -2,8 +2,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-Falsi::Falsi(double a, double b, double tol, int maxIter)
-    : a(a), b(b), tol(tol), maxIter(maxIter) {}
+Falsi::Falsi(double a, double b, double step, double tol, int maxIter)
+    : a(a), b(b), step(step), tol(tol), maxIter(maxIter) {}
 
 void Falsi::input_data(istream &inp)
 {
@@ -11,7 +11,7 @@ void Falsi::input_data(istream &inp)
     coef.resize(degree + 1);
     for (int i = 0; i <= degree; i++)
         inp >> coef[i];
-    inp >> a >> b >> tol >> maxIter;
+    inp >> a >> b >> step >> tol >> maxIter;
 }
 
 double Falsi::function(double x, int d)
@@ -25,21 +25,46 @@ double Falsi::function(double x, int d)
 void Falsi::falsePosition()
 {
     double fa = function(a, degree);
-    double fb = function(b, degree);
-
-    if (fa * fb > 0)
-        return;
-
     int iter = 0;
-    double c = 0;
+    double al = a, ar = a;
 
     while (iter < maxIter)
     {
-        c = (a * fb - b * fa) / (fb - fa);
-        double fc = function(c, degree);
+        al -= step;
+        ar += step;
 
-        if (fabs(fc) < tol)
+        if (fa * function(al, degree) < 0)
+        {
+            b = al;
             break;
+        }
+        if (fa * function(ar, degree) < 0)
+        {
+            b = ar;
+            break;
+        }
+
+        iter++;
+    }
+
+    if (iter == maxIter)
+        return;
+
+    double fb = function(b, degree);
+    double c, fc, temp = 1e18;
+    iter = 0;
+
+    while (1)
+    {
+        iter++;
+        c = (a * fb - b * fa) / (fb - fa);
+        fc = function(c, degree);
+
+        if (fabs(fc - temp) <= tol || fabs(fc) < tol)
+        {
+            a = b = c;
+            return;
+        }
 
         if (fa * fc < 0)
         {
@@ -52,12 +77,18 @@ void Falsi::falsePosition()
             fa = fc;
         }
 
-        iter++;
+        temp = fc;
+
+        if (iter >= maxIter)
+        {
+            a = b = c;
+            return;
+        }
     }
 }
 
 void Falsi::display_save(ostream &out)
 {
     out << "[" << a << " " << b << "]" << endl;
-    out << (a * function(b, degree) - b * function(a, degree)) /(function(b, degree) - function(a, degree))<< endl;
+    out << fixed << setprecision(6) << a << endl;
 }

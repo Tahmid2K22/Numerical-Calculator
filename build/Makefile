@@ -176,6 +176,54 @@ src/algorithm/inverse/naive_inverse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/inverse/naive_inverse.cpp.s
 .PHONY : src/algorithm/inverse/naive_inverse.cpp.s
 
+src/algorithm/non_linear_equation/bisection.obj: src/algorithm/non_linear_equation/bisection.cpp.obj
+.PHONY : src/algorithm/non_linear_equation/bisection.obj
+
+# target to build an object file
+src/algorithm/non_linear_equation/bisection.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/bisection.cpp.obj
+.PHONY : src/algorithm/non_linear_equation/bisection.cpp.obj
+
+src/algorithm/non_linear_equation/bisection.i: src/algorithm/non_linear_equation/bisection.cpp.i
+.PHONY : src/algorithm/non_linear_equation/bisection.i
+
+# target to preprocess a source file
+src/algorithm/non_linear_equation/bisection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/bisection.cpp.i
+.PHONY : src/algorithm/non_linear_equation/bisection.cpp.i
+
+src/algorithm/non_linear_equation/bisection.s: src/algorithm/non_linear_equation/bisection.cpp.s
+.PHONY : src/algorithm/non_linear_equation/bisection.s
+
+# target to generate assembly for a file
+src/algorithm/non_linear_equation/bisection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/bisection.cpp.s
+.PHONY : src/algorithm/non_linear_equation/bisection.cpp.s
+
+src/algorithm/non_linear_equation/falsi.obj: src/algorithm/non_linear_equation/falsi.cpp.obj
+.PHONY : src/algorithm/non_linear_equation/falsi.obj
+
+# target to build an object file
+src/algorithm/non_linear_equation/falsi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/falsi.cpp.obj
+.PHONY : src/algorithm/non_linear_equation/falsi.cpp.obj
+
+src/algorithm/non_linear_equation/falsi.i: src/algorithm/non_linear_equation/falsi.cpp.i
+.PHONY : src/algorithm/non_linear_equation/falsi.i
+
+# target to preprocess a source file
+src/algorithm/non_linear_equation/falsi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/falsi.cpp.i
+.PHONY : src/algorithm/non_linear_equation/falsi.cpp.i
+
+src/algorithm/non_linear_equation/falsi.s: src/algorithm/non_linear_equation/falsi.cpp.s
+.PHONY : src/algorithm/non_linear_equation/falsi.s
+
+# target to generate assembly for a file
+src/algorithm/non_linear_equation/falsi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/falsi.cpp.s
+.PHONY : src/algorithm/non_linear_equation/falsi.cpp.s
+
 src/algorithm/regression/regression.obj: src/algorithm/regression/regression.cpp.obj
 .PHONY : src/algorithm/regression/regression.obj
 
@@ -239,6 +287,12 @@ help:
 	@echo ... src/algorithm/inverse/naive_inverse.obj
 	@echo ... src/algorithm/inverse/naive_inverse.i
 	@echo ... src/algorithm/inverse/naive_inverse.s
+	@echo ... src/algorithm/non_linear_equation/bisection.obj
+	@echo ... src/algorithm/non_linear_equation/bisection.i
+	@echo ... src/algorithm/non_linear_equation/bisection.s
+	@echo ... src/algorithm/non_linear_equation/falsi.obj
+	@echo ... src/algorithm/non_linear_equation/falsi.i
+	@echo ... src/algorithm/non_linear_equation/falsi.s
 	@echo ... src/algorithm/regression/regression.obj
 	@echo ... src/algorithm/regression/regression.i
 	@echo ... src/algorithm/regression/regression.s

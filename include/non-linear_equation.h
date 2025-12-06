@@ -1,3 +1,4 @@
+#pragma once
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -6,12 +7,13 @@ class Bisection
 private:
     double a, b;
     double tol;
+    double step;
     int maxIter;
     int degree;
     vector<double> coef;
 
 public:
-    Bisection(double a = 0, double b = 0, double tol = 1e-6, int maxIter = 1000);
+    Bisection(double a = 0, double b = 0, double step = 0.2, double tol = 1e-6, int maxIter = 1000);
 
     void input_data(istream &inp);
     double function(double x, int d);
@@ -24,12 +26,13 @@ class Falsi
 private:
     double a, b;
     double tol;
+    double step;
     int maxIter;
     int degree;
     vector<double> coef;
 
 public:
-    Falsi(double a = 0, double b = 0, double tol = 1e-6, int maxIter = 1000);
+    Falsi(double a = 0, double b = 0, double step = 0.2, double tol = 1e-6, int maxIter = 1000);
 
     void input_data(istream &inp);
     double function(double x, int d);

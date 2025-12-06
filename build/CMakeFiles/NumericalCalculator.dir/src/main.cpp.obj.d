@@ -256,4 +256,5 @@ CMakeFiles/NumericalCalculator.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_set.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\shared_mutex \
  e:\2-2\neumerical\project\numerical-calculator\include\inversion.h \
- e:\2-2\neumerical\project\numerical-calculator\include\regression.h
+ e:\2-2\neumerical\project\numerical-calculator\include\regression.h \
+ e:\2-2\neumerical\project\numerical-calculator\include\non-linear_equation.h

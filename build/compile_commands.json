@@ -22,5 +22,17 @@
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\NumericalCalculator.dir\\src\\algorithm\\regression\\regression.cpp.obj -c E:\\2-2\\Neumerical\\project\\Numerical-Calculator\\src\\algorithm\\regression\\regression.cpp",
   "file": "E:/2-2/Neumerical/project/Numerical-Calculator/src/algorithm/regression/regression.cpp",
   "output": "CMakeFiles/NumericalCalculator.dir/src/algorithm/regression/regression.cpp.obj"
+},
+{
+  "directory": "E:/2-2/Neumerical/project/Numerical-Calculator/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\NumericalCalculator.dir\\src\\algorithm\\non_linear_equation\\bisection.cpp.obj -c E:\\2-2\\Neumerical\\project\\Numerical-Calculator\\src\\algorithm\\non_linear_equation\\bisection.cpp",
+  "file": "E:/2-2/Neumerical/project/Numerical-Calculator/src/algorithm/non_linear_equation/bisection.cpp",
+  "output": "CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/bisection.cpp.obj"
+},
+{
+  "directory": "E:/2-2/Neumerical/project/Numerical-Calculator/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\NumericalCalculator.dir\\src\\algorithm\\non_linear_equation\\falsi.cpp.obj -c E:\\2-2\\Neumerical\\project\\Numerical-Calculator\\src\\algorithm\\non_linear_equation\\falsi.cpp",
+  "file": "E:/2-2/Neumerical/project/Numerical-Calculator/src/algorithm/non_linear_equation/falsi.cpp",
+  "output": "CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/falsi.cpp.obj"
 }
 ]
