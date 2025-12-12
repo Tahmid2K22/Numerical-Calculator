@@ -2,6 +2,7 @@
 #include "../include/inversion.h"
 #include "../include/regression.h"
 #include "../include/non-linear_equation.h"
+#include "../include/linear.h"
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -67,6 +68,13 @@ int main()
             falsi.input_data(inp);
             falsi.falsePosition();
             falsi.display_save(out);
+        }
+        else if(operation=="gaussjordan")
+        {
+            GaussJordan gaussjordan;
+            gaussjordan.input_data(inp);
+            gaussjordan.solve();
+            gaussjordan.display_save(out);
         }
     }
 

@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\2-2\Neumerical\project\Numerical-Calculator
+CMAKE_SOURCE_DIR = D:\nummmm\Numerical-Calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\2-2\Neumerical\project\Numerical-Calculator\build
+CMAKE_BINARY_DIR = D:\nummmm\Numerical-Calculator\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\2-2\Neumerical\project\Numerical-Calculator\build\CMakeFiles E:\2-2\Neumerical\project\Numerical-Calculator\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\nummmm\Numerical-Calculator\build\CMakeFiles D:\nummmm\Numerical-Calculator\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\2-2\Neumerical\project\Numerical-Calculator\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\nummmm\Numerical-Calculator\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -175,6 +175,30 @@ src/algorithm/inverse/naive_inverse.s: src/algorithm/inverse/naive_inverse.cpp.s
 src/algorithm/inverse/naive_inverse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/inverse/naive_inverse.cpp.s
 .PHONY : src/algorithm/inverse/naive_inverse.cpp.s
+
+src/algorithm/linear/gaussjordan.obj: src/algorithm/linear/gaussjordan.cpp.obj
+.PHONY : src/algorithm/linear/gaussjordan.obj
+
+# target to build an object file
+src/algorithm/linear/gaussjordan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj
+.PHONY : src/algorithm/linear/gaussjordan.cpp.obj
+
+src/algorithm/linear/gaussjordan.i: src/algorithm/linear/gaussjordan.cpp.i
+.PHONY : src/algorithm/linear/gaussjordan.i
+
+# target to preprocess a source file
+src/algorithm/linear/gaussjordan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.i
+.PHONY : src/algorithm/linear/gaussjordan.cpp.i
+
+src/algorithm/linear/gaussjordan.s: src/algorithm/linear/gaussjordan.cpp.s
+.PHONY : src/algorithm/linear/gaussjordan.s
+
+# target to generate assembly for a file
+src/algorithm/linear/gaussjordan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.s
+.PHONY : src/algorithm/linear/gaussjordan.cpp.s
 
 src/algorithm/non_linear_equation/bisection.obj: src/algorithm/non_linear_equation/bisection.cpp.obj
 .PHONY : src/algorithm/non_linear_equation/bisection.obj
@@ -287,6 +311,9 @@ help:
 	@echo ... src/algorithm/inverse/naive_inverse.obj
 	@echo ... src/algorithm/inverse/naive_inverse.i
 	@echo ... src/algorithm/inverse/naive_inverse.s
+	@echo ... src/algorithm/linear/gaussjordan.obj
+	@echo ... src/algorithm/linear/gaussjordan.i
+	@echo ... src/algorithm/linear/gaussjordan.s
 	@echo ... src/algorithm/non_linear_equation/bisection.obj
 	@echo ... src/algorithm/non_linear_equation/bisection.i
 	@echo ... src/algorithm/non_linear_equation/bisection.s
