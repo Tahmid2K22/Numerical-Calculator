@@ -176,11 +176,26 @@ CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/newton_raph
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/newton_raphson.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\non_linear_equation\newton_raphson.cpp -o CMakeFiles\NumericalCalculator.dir\src\algorithm\non_linear_equation\newton_raphson.cpp.s
 
+CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.obj: CMakeFiles/NumericalCalculator.dir/flags.make
+CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
+CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/non_linear_equation/secant.cpp
+CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\non_linear_equation\secant.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\non_linear_equation\secant.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\non_linear_equation\secant.cpp
+
+CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\non_linear_equation\secant.cpp > CMakeFiles\NumericalCalculator.dir\src\algorithm\non_linear_equation\secant.cpp.i
+
+CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\non_linear_equation\secant.cpp -o CMakeFiles\NumericalCalculator.dir\src\algorithm\non_linear_equation\secant.cpp.s
+
 CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj: CMakeFiles/NumericalCalculator.dir/flags.make
 CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/linear/gaussjordan.cpp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\linear\gaussjordan.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\linear\gaussjordan.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\linear\gaussjordan.cpp
 
 CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.i: cmake_force
@@ -191,6 +206,36 @@ CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\linear\gaussjordan.cpp -o CMakeFiles\NumericalCalculator.dir\src\algorithm\linear\gaussjordan.cpp.s
 
+CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.obj: CMakeFiles/NumericalCalculator.dir/flags.make
+CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
+CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/linear/gausselimination.cpp
+CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\linear\gausselimination.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\linear\gausselimination.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\linear\gausselimination.cpp
+
+CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\linear\gausselimination.cpp > CMakeFiles\NumericalCalculator.dir\src\algorithm\linear\gausselimination.cpp.i
+
+CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\linear\gausselimination.cpp -o CMakeFiles\NumericalCalculator.dir\src\algorithm\linear\gausselimination.cpp.s
+
+CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.obj: CMakeFiles/NumericalCalculator.dir/flags.make
+CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
+CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/linear/ludecomposition.cpp
+CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\linear\ludecomposition.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\linear\ludecomposition.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\linear\ludecomposition.cpp
+
+CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\linear\ludecomposition.cpp > CMakeFiles\NumericalCalculator.dir\src\algorithm\linear\ludecomposition.cpp.i
+
+CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\linear\ludecomposition.cpp -o CMakeFiles\NumericalCalculator.dir\src\algorithm\linear\ludecomposition.cpp.s
+
 # Object files for target NumericalCalculator
 NumericalCalculator_OBJECTS = \
 "CMakeFiles/NumericalCalculator.dir/src/main.cpp.obj" \
@@ -200,7 +245,10 @@ NumericalCalculator_OBJECTS = \
 "CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/bisection.cpp.obj" \
 "CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/falsi.cpp.obj" \
 "CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/newton_raphson.cpp.obj" \
-"CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj"
+"CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.obj" \
+"CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj" \
+"CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.obj" \
+"CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.obj"
 
 # External object files for target NumericalCalculator
 NumericalCalculator_EXTERNAL_OBJECTS =
@@ -212,12 +260,15 @@ NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/regres
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/bisection.cpp.obj
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/falsi.cpp.obj
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/newton_raphson.cpp.obj
+NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.obj
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj
+NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.obj
+NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.obj
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/build.make
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/linkLibs.rsp
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/objects1.rsp
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable NumericalCalculator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable NumericalCalculator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\NumericalCalculator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

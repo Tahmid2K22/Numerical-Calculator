@@ -59,3 +59,22 @@ public:
     void display_save(ostream &out);
 };
 
+class Secant
+{
+private:
+    double a, b;
+    double tol;
+    int maxIter;
+    int degree;
+    vector<double> coef;
+    double function(double x);
+
+public:
+    Secant(double a = 0, double b = 0, double tol = 1e-6, int maxIter = 1000);
+    
+    void input_data(istream &inp);
+    void secantMethod();
+    void display_save(ostream &out);
+};
+
+

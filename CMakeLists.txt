@@ -14,5 +14,8 @@ add_executable(NumericalCalculator
     src/algorithm/non_linear_equation/bisection.cpp
     src/algorithm/non_linear_equation/falsi.cpp
     src/algorithm/non_linear_equation/newton_raphson.cpp
+    src/algorithm/non_linear_equation/secant.cpp   
     src/algorithm/linear/gaussjordan.cpp
+    src/algorithm/linear/gausselimination.cpp
+    src/algorithm/linear/ludecomposition.cpp
 )
