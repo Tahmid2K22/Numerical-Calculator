@@ -224,6 +224,30 @@ src/algorithm/linear/gaussjordan.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.s
 .PHONY : src/algorithm/linear/gaussjordan.cpp.s
 
+src/algorithm/linear/ludecomposition.obj: src/algorithm/linear/ludecomposition.cpp.obj
+.PHONY : src/algorithm/linear/ludecomposition.obj
+
+# target to build an object file
+src/algorithm/linear/ludecomposition.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.obj
+.PHONY : src/algorithm/linear/ludecomposition.cpp.obj
+
+src/algorithm/linear/ludecomposition.i: src/algorithm/linear/ludecomposition.cpp.i
+.PHONY : src/algorithm/linear/ludecomposition.i
+
+# target to preprocess a source file
+src/algorithm/linear/ludecomposition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.i
+.PHONY : src/algorithm/linear/ludecomposition.cpp.i
+
+src/algorithm/linear/ludecomposition.s: src/algorithm/linear/ludecomposition.cpp.s
+.PHONY : src/algorithm/linear/ludecomposition.s
+
+# target to generate assembly for a file
+src/algorithm/linear/ludecomposition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.s
+.PHONY : src/algorithm/linear/ludecomposition.cpp.s
+
 src/algorithm/non_linear_equation/bisection.obj: src/algorithm/non_linear_equation/bisection.cpp.obj
 .PHONY : src/algorithm/non_linear_equation/bisection.obj
 
@@ -271,6 +295,30 @@ src/algorithm/non_linear_equation/falsi.s: src/algorithm/non_linear_equation/fal
 src/algorithm/non_linear_equation/falsi.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/falsi.cpp.s
 .PHONY : src/algorithm/non_linear_equation/falsi.cpp.s
+
+src/algorithm/non_linear_equation/newtonraphson.obj: src/algorithm/non_linear_equation/newtonraphson.cpp.obj
+.PHONY : src/algorithm/non_linear_equation/newtonraphson.obj
+
+# target to build an object file
+src/algorithm/non_linear_equation/newtonraphson.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/newtonraphson.cpp.obj
+.PHONY : src/algorithm/non_linear_equation/newtonraphson.cpp.obj
+
+src/algorithm/non_linear_equation/newtonraphson.i: src/algorithm/non_linear_equation/newtonraphson.cpp.i
+.PHONY : src/algorithm/non_linear_equation/newtonraphson.i
+
+# target to preprocess a source file
+src/algorithm/non_linear_equation/newtonraphson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/newtonraphson.cpp.i
+.PHONY : src/algorithm/non_linear_equation/newtonraphson.cpp.i
+
+src/algorithm/non_linear_equation/newtonraphson.s: src/algorithm/non_linear_equation/newtonraphson.cpp.s
+.PHONY : src/algorithm/non_linear_equation/newtonraphson.s
+
+# target to generate assembly for a file
+src/algorithm/non_linear_equation/newtonraphson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/newtonraphson.cpp.s
+.PHONY : src/algorithm/non_linear_equation/newtonraphson.cpp.s
 
 src/algorithm/regression/regression.obj: src/algorithm/regression/regression.cpp.obj
 .PHONY : src/algorithm/regression/regression.obj
@@ -341,12 +389,18 @@ help:
 	@echo ... src/algorithm/linear/gaussjordan.obj
 	@echo ... src/algorithm/linear/gaussjordan.i
 	@echo ... src/algorithm/linear/gaussjordan.s
+	@echo ... src/algorithm/linear/ludecomposition.obj
+	@echo ... src/algorithm/linear/ludecomposition.i
+	@echo ... src/algorithm/linear/ludecomposition.s
 	@echo ... src/algorithm/non_linear_equation/bisection.obj
 	@echo ... src/algorithm/non_linear_equation/bisection.i
 	@echo ... src/algorithm/non_linear_equation/bisection.s
 	@echo ... src/algorithm/non_linear_equation/falsi.obj
 	@echo ... src/algorithm/non_linear_equation/falsi.i
 	@echo ... src/algorithm/non_linear_equation/falsi.s
+	@echo ... src/algorithm/non_linear_equation/newtonraphson.obj
+	@echo ... src/algorithm/non_linear_equation/newtonraphson.i
+	@echo ... src/algorithm/non_linear_equation/newtonraphson.s
 	@echo ... src/algorithm/regression/regression.obj
 	@echo ... src/algorithm/regression/regression.i
 	@echo ... src/algorithm/regression/regression.s
