@@ -2,6 +2,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+GaussJordan::GaussJordan(int n)
+{
+    this->n = n;
+}
 
 void GaussJordan::input_data(istream &inp)
 {

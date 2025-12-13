@@ -53,21 +53,33 @@ int main()
                 out << "Polynomial Regression: " << reg.poly_regress(x_target) << endl;
             }
         }
-
-        else if(operation=="bisection")
+        else if (operation == "bisection")
         {
             Bisection bisec;
             bisec.input_data(inp);
             bisec.biSection();
             bisec.display_save(out);
-
         }
-        else if(operation=="falsi")
+        else if (operation == "falsi")
         {
             Falsi falsi;
             falsi.input_data(inp);
             falsi.falsePosition();
             falsi.display_save(out);
+        }
+        else if (operation == "newtonraphson")
+        {
+            NewtonRaphson newton;
+            newton.input_data(inp);
+            newton.newton();
+            newton.display_save(out);
+        }
+        else if (operation == "secant")
+        {
+            Secant sec;
+            sec.input_data(inp);
+            sec.secantMethod();
+            sec.display_save(out);
         }
         else if(operation=="gaussjordan")
         {
