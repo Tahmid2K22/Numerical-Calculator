@@ -76,6 +76,20 @@ int main()
             gaussjordan.solve();
             gaussjordan.display_save(out);
         }
+        else if(operation=="gausselimination")
+        {
+            GaussElimination gausselimination;
+            gausselimination.input_data(inp);
+            gausselimination.solve();
+            gausselimination.display_save(out);
+        }
+        else if(operation=="ludecomposition")
+        {
+            LUDecomposition ludecomposition;
+            ludecomposition.input_data(inp);
+            ludecomposition.solve();
+            ludecomposition.display_save(out);
+        }
     }
 
     inp.close();
