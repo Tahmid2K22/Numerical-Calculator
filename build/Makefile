@@ -176,6 +176,30 @@ src/algorithm/inverse/naive_inverse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/inverse/naive_inverse.cpp.s
 .PHONY : src/algorithm/inverse/naive_inverse.cpp.s
 
+src/algorithm/linear/gausselimination.obj: src/algorithm/linear/gausselimination.cpp.obj
+.PHONY : src/algorithm/linear/gausselimination.obj
+
+# target to build an object file
+src/algorithm/linear/gausselimination.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.obj
+.PHONY : src/algorithm/linear/gausselimination.cpp.obj
+
+src/algorithm/linear/gausselimination.i: src/algorithm/linear/gausselimination.cpp.i
+.PHONY : src/algorithm/linear/gausselimination.i
+
+# target to preprocess a source file
+src/algorithm/linear/gausselimination.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.i
+.PHONY : src/algorithm/linear/gausselimination.cpp.i
+
+src/algorithm/linear/gausselimination.s: src/algorithm/linear/gausselimination.cpp.s
+.PHONY : src/algorithm/linear/gausselimination.s
+
+# target to generate assembly for a file
+src/algorithm/linear/gausselimination.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.s
+.PHONY : src/algorithm/linear/gausselimination.cpp.s
+
 src/algorithm/linear/gaussjordan.obj: src/algorithm/linear/gaussjordan.cpp.obj
 .PHONY : src/algorithm/linear/gaussjordan.obj
 
@@ -311,6 +335,9 @@ help:
 	@echo ... src/algorithm/inverse/naive_inverse.obj
 	@echo ... src/algorithm/inverse/naive_inverse.i
 	@echo ... src/algorithm/inverse/naive_inverse.s
+	@echo ... src/algorithm/linear/gausselimination.obj
+	@echo ... src/algorithm/linear/gausselimination.i
+	@echo ... src/algorithm/linear/gausselimination.s
 	@echo ... src/algorithm/linear/gaussjordan.obj
 	@echo ... src/algorithm/linear/gaussjordan.i
 	@echo ... src/algorithm/linear/gaussjordan.s

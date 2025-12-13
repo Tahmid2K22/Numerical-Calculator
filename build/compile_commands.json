@@ -40,5 +40,11 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\NumericalCalculator.dir\\src\\algorithm\\linear\\gaussjordan.cpp.obj -c D:\\nummmm\\Numerical-Calculator\\src\\algorithm\\linear\\gaussjordan.cpp",
   "file": "D:/nummmm/Numerical-Calculator/src/algorithm/linear/gaussjordan.cpp",
   "output": "CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj"
+},
+{
+  "directory": "D:/nummmm/Numerical-Calculator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\NumericalCalculator.dir\\src\\algorithm\\linear\\gausselimination.cpp.obj -c D:\\nummmm\\Numerical-Calculator\\src\\algorithm\\linear\\gausselimination.cpp",
+  "file": "D:/nummmm/Numerical-Calculator/src/algorithm/linear/gausselimination.cpp",
+  "output": "CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.obj"
 }
 ]
