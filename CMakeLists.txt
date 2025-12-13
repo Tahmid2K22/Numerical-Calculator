@@ -13,5 +13,6 @@ add_executable(NumericalCalculator
     src/algorithm/regression/regression.cpp
     src/algorithm/non_linear_equation/bisection.cpp
     src/algorithm/non_linear_equation/falsi.cpp
+    src/algorithm/non_linear_equation/newton_raphson.cpp
     src/algorithm/linear/gaussjordan.cpp
 )

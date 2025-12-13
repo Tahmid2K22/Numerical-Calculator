@@ -39,3 +39,23 @@ public:
     void falsePosition();
     void display_save(ostream &out);
 };
+
+class NewtonRaphson
+{
+private:
+    double a;      
+    double tol;
+    int maxIter;
+    int degree;
+    vector<double> coef;
+    double function(double x);
+    double derivative(double x);
+
+public:
+    NewtonRaphson(double a = 0, double tol = 1e-6, int maxIter = 1000);
+
+    void input_data(istream &inp);
+    void newton();
+    void display_save(ostream &out);
+};
+
