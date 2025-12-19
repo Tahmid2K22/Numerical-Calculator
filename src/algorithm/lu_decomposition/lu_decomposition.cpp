@@ -1,4 +1,4 @@
-#include "../../../include/linear.h"
+#include "linear.h"
 #include <bits/stdc++.h>
 using namespace std;
 

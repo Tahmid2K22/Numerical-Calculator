@@ -9,13 +9,16 @@ include_directories(include)
 add_executable(NumericalCalculator 
     src/main.cpp
     src/algorithm/interpolation/interpolation.cpp
-    src/algorithm/inverse/naive_inverse.cpp
+    src/algorithm/naive_inverse/naive_inverse.cpp
     src/algorithm/regression/regression.cpp
-    src/algorithm/non_linear_equation/bisection.cpp
-    src/algorithm/non_linear_equation/falsi.cpp
-    src/algorithm/non_linear_equation/newton_raphson.cpp
-    src/algorithm/non_linear_equation/secant.cpp   
-    src/algorithm/linear/gaussjordan.cpp
-    src/algorithm/linear/gausselimination.cpp
-    src/algorithm/linear/ludecomposition.cpp
+    src/algorithm/bisection/bisection.cpp
+    src/algorithm/falsi/falsi.cpp
+    src/algorithm/newton_raphson/newton_raphson.cpp
+    src/algorithm/secant/secant.cpp   
+    src/algorithm/gauss_elimination/gauss_elimination.cpp
+    src/algorithm/gauss_jordan/gauss_jordan.cpp
+    src/algorithm/lu_decomposition/lu_decomposition.cpp
+    src/algorithm/rk_method/rk.cpp
+    src/algorithm/simpson_one_third/simpson_one_third.cpp
+    src/algorithm/simpson_three_eight/simpson_three_eight.cpp
 )

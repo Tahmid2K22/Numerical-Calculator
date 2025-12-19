@@ -128,6 +128,102 @@ NumericalCalculator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/build
 .PHONY : NumericalCalculator/fast
 
+src/algorithm/bisection/bisection.obj: src/algorithm/bisection/bisection.cpp.obj
+.PHONY : src/algorithm/bisection/bisection.obj
+
+# target to build an object file
+src/algorithm/bisection/bisection.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/bisection/bisection.cpp.obj
+.PHONY : src/algorithm/bisection/bisection.cpp.obj
+
+src/algorithm/bisection/bisection.i: src/algorithm/bisection/bisection.cpp.i
+.PHONY : src/algorithm/bisection/bisection.i
+
+# target to preprocess a source file
+src/algorithm/bisection/bisection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/bisection/bisection.cpp.i
+.PHONY : src/algorithm/bisection/bisection.cpp.i
+
+src/algorithm/bisection/bisection.s: src/algorithm/bisection/bisection.cpp.s
+.PHONY : src/algorithm/bisection/bisection.s
+
+# target to generate assembly for a file
+src/algorithm/bisection/bisection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/bisection/bisection.cpp.s
+.PHONY : src/algorithm/bisection/bisection.cpp.s
+
+src/algorithm/falsi/falsi.obj: src/algorithm/falsi/falsi.cpp.obj
+.PHONY : src/algorithm/falsi/falsi.obj
+
+# target to build an object file
+src/algorithm/falsi/falsi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.obj
+.PHONY : src/algorithm/falsi/falsi.cpp.obj
+
+src/algorithm/falsi/falsi.i: src/algorithm/falsi/falsi.cpp.i
+.PHONY : src/algorithm/falsi/falsi.i
+
+# target to preprocess a source file
+src/algorithm/falsi/falsi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.i
+.PHONY : src/algorithm/falsi/falsi.cpp.i
+
+src/algorithm/falsi/falsi.s: src/algorithm/falsi/falsi.cpp.s
+.PHONY : src/algorithm/falsi/falsi.s
+
+# target to generate assembly for a file
+src/algorithm/falsi/falsi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.s
+.PHONY : src/algorithm/falsi/falsi.cpp.s
+
+src/algorithm/gauss_elimination/gauss_elimination.obj: src/algorithm/gauss_elimination/gauss_elimination.cpp.obj
+.PHONY : src/algorithm/gauss_elimination/gauss_elimination.obj
+
+# target to build an object file
+src/algorithm/gauss_elimination/gauss_elimination.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_elimination/gauss_elimination.cpp.obj
+.PHONY : src/algorithm/gauss_elimination/gauss_elimination.cpp.obj
+
+src/algorithm/gauss_elimination/gauss_elimination.i: src/algorithm/gauss_elimination/gauss_elimination.cpp.i
+.PHONY : src/algorithm/gauss_elimination/gauss_elimination.i
+
+# target to preprocess a source file
+src/algorithm/gauss_elimination/gauss_elimination.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_elimination/gauss_elimination.cpp.i
+.PHONY : src/algorithm/gauss_elimination/gauss_elimination.cpp.i
+
+src/algorithm/gauss_elimination/gauss_elimination.s: src/algorithm/gauss_elimination/gauss_elimination.cpp.s
+.PHONY : src/algorithm/gauss_elimination/gauss_elimination.s
+
+# target to generate assembly for a file
+src/algorithm/gauss_elimination/gauss_elimination.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_elimination/gauss_elimination.cpp.s
+.PHONY : src/algorithm/gauss_elimination/gauss_elimination.cpp.s
+
+src/algorithm/gauss_jordan/gauss_jordan.obj: src/algorithm/gauss_jordan/gauss_jordan.cpp.obj
+.PHONY : src/algorithm/gauss_jordan/gauss_jordan.obj
+
+# target to build an object file
+src/algorithm/gauss_jordan/gauss_jordan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_jordan/gauss_jordan.cpp.obj
+.PHONY : src/algorithm/gauss_jordan/gauss_jordan.cpp.obj
+
+src/algorithm/gauss_jordan/gauss_jordan.i: src/algorithm/gauss_jordan/gauss_jordan.cpp.i
+.PHONY : src/algorithm/gauss_jordan/gauss_jordan.i
+
+# target to preprocess a source file
+src/algorithm/gauss_jordan/gauss_jordan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_jordan/gauss_jordan.cpp.i
+.PHONY : src/algorithm/gauss_jordan/gauss_jordan.cpp.i
+
+src/algorithm/gauss_jordan/gauss_jordan.s: src/algorithm/gauss_jordan/gauss_jordan.cpp.s
+.PHONY : src/algorithm/gauss_jordan/gauss_jordan.s
+
+# target to generate assembly for a file
+src/algorithm/gauss_jordan/gauss_jordan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_jordan/gauss_jordan.cpp.s
+.PHONY : src/algorithm/gauss_jordan/gauss_jordan.cpp.s
+
 src/algorithm/interpolation/interpolation.obj: src/algorithm/interpolation/interpolation.cpp.obj
 .PHONY : src/algorithm/interpolation/interpolation.obj
 
@@ -152,197 +248,77 @@ src/algorithm/interpolation/interpolation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/interpolation/interpolation.cpp.s
 .PHONY : src/algorithm/interpolation/interpolation.cpp.s
 
-src/algorithm/inverse/naive_inverse.obj: src/algorithm/inverse/naive_inverse.cpp.obj
-.PHONY : src/algorithm/inverse/naive_inverse.obj
+src/algorithm/lu_decomposition/lu_decomposition.obj: src/algorithm/lu_decomposition/lu_decomposition.cpp.obj
+.PHONY : src/algorithm/lu_decomposition/lu_decomposition.obj
 
 # target to build an object file
-src/algorithm/inverse/naive_inverse.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/inverse/naive_inverse.cpp.obj
-.PHONY : src/algorithm/inverse/naive_inverse.cpp.obj
+src/algorithm/lu_decomposition/lu_decomposition.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/lu_decomposition/lu_decomposition.cpp.obj
+.PHONY : src/algorithm/lu_decomposition/lu_decomposition.cpp.obj
 
-src/algorithm/inverse/naive_inverse.i: src/algorithm/inverse/naive_inverse.cpp.i
-.PHONY : src/algorithm/inverse/naive_inverse.i
+src/algorithm/lu_decomposition/lu_decomposition.i: src/algorithm/lu_decomposition/lu_decomposition.cpp.i
+.PHONY : src/algorithm/lu_decomposition/lu_decomposition.i
 
 # target to preprocess a source file
-src/algorithm/inverse/naive_inverse.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/inverse/naive_inverse.cpp.i
-.PHONY : src/algorithm/inverse/naive_inverse.cpp.i
+src/algorithm/lu_decomposition/lu_decomposition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/lu_decomposition/lu_decomposition.cpp.i
+.PHONY : src/algorithm/lu_decomposition/lu_decomposition.cpp.i
 
-src/algorithm/inverse/naive_inverse.s: src/algorithm/inverse/naive_inverse.cpp.s
-.PHONY : src/algorithm/inverse/naive_inverse.s
+src/algorithm/lu_decomposition/lu_decomposition.s: src/algorithm/lu_decomposition/lu_decomposition.cpp.s
+.PHONY : src/algorithm/lu_decomposition/lu_decomposition.s
 
 # target to generate assembly for a file
-src/algorithm/inverse/naive_inverse.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/inverse/naive_inverse.cpp.s
-.PHONY : src/algorithm/inverse/naive_inverse.cpp.s
+src/algorithm/lu_decomposition/lu_decomposition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/lu_decomposition/lu_decomposition.cpp.s
+.PHONY : src/algorithm/lu_decomposition/lu_decomposition.cpp.s
 
-src/algorithm/linear/gausselimination.obj: src/algorithm/linear/gausselimination.cpp.obj
-.PHONY : src/algorithm/linear/gausselimination.obj
+src/algorithm/naive_inverse/naive_inverse.obj: src/algorithm/naive_inverse/naive_inverse.cpp.obj
+.PHONY : src/algorithm/naive_inverse/naive_inverse.obj
 
 # target to build an object file
-src/algorithm/linear/gausselimination.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.obj
-.PHONY : src/algorithm/linear/gausselimination.cpp.obj
+src/algorithm/naive_inverse/naive_inverse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/naive_inverse/naive_inverse.cpp.obj
+.PHONY : src/algorithm/naive_inverse/naive_inverse.cpp.obj
 
-src/algorithm/linear/gausselimination.i: src/algorithm/linear/gausselimination.cpp.i
-.PHONY : src/algorithm/linear/gausselimination.i
+src/algorithm/naive_inverse/naive_inverse.i: src/algorithm/naive_inverse/naive_inverse.cpp.i
+.PHONY : src/algorithm/naive_inverse/naive_inverse.i
 
 # target to preprocess a source file
-src/algorithm/linear/gausselimination.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.i
-.PHONY : src/algorithm/linear/gausselimination.cpp.i
+src/algorithm/naive_inverse/naive_inverse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/naive_inverse/naive_inverse.cpp.i
+.PHONY : src/algorithm/naive_inverse/naive_inverse.cpp.i
 
-src/algorithm/linear/gausselimination.s: src/algorithm/linear/gausselimination.cpp.s
-.PHONY : src/algorithm/linear/gausselimination.s
+src/algorithm/naive_inverse/naive_inverse.s: src/algorithm/naive_inverse/naive_inverse.cpp.s
+.PHONY : src/algorithm/naive_inverse/naive_inverse.s
 
 # target to generate assembly for a file
-src/algorithm/linear/gausselimination.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gausselimination.cpp.s
-.PHONY : src/algorithm/linear/gausselimination.cpp.s
+src/algorithm/naive_inverse/naive_inverse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/naive_inverse/naive_inverse.cpp.s
+.PHONY : src/algorithm/naive_inverse/naive_inverse.cpp.s
 
-src/algorithm/linear/gaussjordan.obj: src/algorithm/linear/gaussjordan.cpp.obj
-.PHONY : src/algorithm/linear/gaussjordan.obj
+src/algorithm/newton_raphson/newton_raphson.obj: src/algorithm/newton_raphson/newton_raphson.cpp.obj
+.PHONY : src/algorithm/newton_raphson/newton_raphson.obj
 
 # target to build an object file
-src/algorithm/linear/gaussjordan.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.obj
-.PHONY : src/algorithm/linear/gaussjordan.cpp.obj
+src/algorithm/newton_raphson/newton_raphson.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.cpp.obj
+.PHONY : src/algorithm/newton_raphson/newton_raphson.cpp.obj
 
-src/algorithm/linear/gaussjordan.i: src/algorithm/linear/gaussjordan.cpp.i
-.PHONY : src/algorithm/linear/gaussjordan.i
-
-# target to preprocess a source file
-src/algorithm/linear/gaussjordan.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.i
-.PHONY : src/algorithm/linear/gaussjordan.cpp.i
-
-src/algorithm/linear/gaussjordan.s: src/algorithm/linear/gaussjordan.cpp.s
-.PHONY : src/algorithm/linear/gaussjordan.s
-
-# target to generate assembly for a file
-src/algorithm/linear/gaussjordan.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/gaussjordan.cpp.s
-.PHONY : src/algorithm/linear/gaussjordan.cpp.s
-
-src/algorithm/linear/ludecomposition.obj: src/algorithm/linear/ludecomposition.cpp.obj
-.PHONY : src/algorithm/linear/ludecomposition.obj
-
-# target to build an object file
-src/algorithm/linear/ludecomposition.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.obj
-.PHONY : src/algorithm/linear/ludecomposition.cpp.obj
-
-src/algorithm/linear/ludecomposition.i: src/algorithm/linear/ludecomposition.cpp.i
-.PHONY : src/algorithm/linear/ludecomposition.i
+src/algorithm/newton_raphson/newton_raphson.i: src/algorithm/newton_raphson/newton_raphson.cpp.i
+.PHONY : src/algorithm/newton_raphson/newton_raphson.i
 
 # target to preprocess a source file
-src/algorithm/linear/ludecomposition.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.i
-.PHONY : src/algorithm/linear/ludecomposition.cpp.i
+src/algorithm/newton_raphson/newton_raphson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.cpp.i
+.PHONY : src/algorithm/newton_raphson/newton_raphson.cpp.i
 
-src/algorithm/linear/ludecomposition.s: src/algorithm/linear/ludecomposition.cpp.s
-.PHONY : src/algorithm/linear/ludecomposition.s
-
-# target to generate assembly for a file
-src/algorithm/linear/ludecomposition.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/linear/ludecomposition.cpp.s
-.PHONY : src/algorithm/linear/ludecomposition.cpp.s
-
-src/algorithm/non_linear_equation/bisection.obj: src/algorithm/non_linear_equation/bisection.cpp.obj
-.PHONY : src/algorithm/non_linear_equation/bisection.obj
-
-# target to build an object file
-src/algorithm/non_linear_equation/bisection.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/bisection.cpp.obj
-.PHONY : src/algorithm/non_linear_equation/bisection.cpp.obj
-
-src/algorithm/non_linear_equation/bisection.i: src/algorithm/non_linear_equation/bisection.cpp.i
-.PHONY : src/algorithm/non_linear_equation/bisection.i
-
-# target to preprocess a source file
-src/algorithm/non_linear_equation/bisection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/bisection.cpp.i
-.PHONY : src/algorithm/non_linear_equation/bisection.cpp.i
-
-src/algorithm/non_linear_equation/bisection.s: src/algorithm/non_linear_equation/bisection.cpp.s
-.PHONY : src/algorithm/non_linear_equation/bisection.s
+src/algorithm/newton_raphson/newton_raphson.s: src/algorithm/newton_raphson/newton_raphson.cpp.s
+.PHONY : src/algorithm/newton_raphson/newton_raphson.s
 
 # target to generate assembly for a file
-src/algorithm/non_linear_equation/bisection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/bisection.cpp.s
-.PHONY : src/algorithm/non_linear_equation/bisection.cpp.s
-
-src/algorithm/non_linear_equation/falsi.obj: src/algorithm/non_linear_equation/falsi.cpp.obj
-.PHONY : src/algorithm/non_linear_equation/falsi.obj
-
-# target to build an object file
-src/algorithm/non_linear_equation/falsi.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/falsi.cpp.obj
-.PHONY : src/algorithm/non_linear_equation/falsi.cpp.obj
-
-src/algorithm/non_linear_equation/falsi.i: src/algorithm/non_linear_equation/falsi.cpp.i
-.PHONY : src/algorithm/non_linear_equation/falsi.i
-
-# target to preprocess a source file
-src/algorithm/non_linear_equation/falsi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/falsi.cpp.i
-.PHONY : src/algorithm/non_linear_equation/falsi.cpp.i
-
-src/algorithm/non_linear_equation/falsi.s: src/algorithm/non_linear_equation/falsi.cpp.s
-.PHONY : src/algorithm/non_linear_equation/falsi.s
-
-# target to generate assembly for a file
-src/algorithm/non_linear_equation/falsi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/falsi.cpp.s
-.PHONY : src/algorithm/non_linear_equation/falsi.cpp.s
-
-src/algorithm/non_linear_equation/newton_raphson.obj: src/algorithm/non_linear_equation/newton_raphson.cpp.obj
-.PHONY : src/algorithm/non_linear_equation/newton_raphson.obj
-
-# target to build an object file
-src/algorithm/non_linear_equation/newton_raphson.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/newton_raphson.cpp.obj
-.PHONY : src/algorithm/non_linear_equation/newton_raphson.cpp.obj
-
-src/algorithm/non_linear_equation/newton_raphson.i: src/algorithm/non_linear_equation/newton_raphson.cpp.i
-.PHONY : src/algorithm/non_linear_equation/newton_raphson.i
-
-# target to preprocess a source file
-src/algorithm/non_linear_equation/newton_raphson.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/newton_raphson.cpp.i
-.PHONY : src/algorithm/non_linear_equation/newton_raphson.cpp.i
-
-src/algorithm/non_linear_equation/newton_raphson.s: src/algorithm/non_linear_equation/newton_raphson.cpp.s
-.PHONY : src/algorithm/non_linear_equation/newton_raphson.s
-
-# target to generate assembly for a file
-src/algorithm/non_linear_equation/newton_raphson.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/newton_raphson.cpp.s
-.PHONY : src/algorithm/non_linear_equation/newton_raphson.cpp.s
-
-src/algorithm/non_linear_equation/secant.obj: src/algorithm/non_linear_equation/secant.cpp.obj
-.PHONY : src/algorithm/non_linear_equation/secant.obj
-
-# target to build an object file
-src/algorithm/non_linear_equation/secant.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.obj
-.PHONY : src/algorithm/non_linear_equation/secant.cpp.obj
-
-src/algorithm/non_linear_equation/secant.i: src/algorithm/non_linear_equation/secant.cpp.i
-.PHONY : src/algorithm/non_linear_equation/secant.i
-
-# target to preprocess a source file
-src/algorithm/non_linear_equation/secant.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.i
-.PHONY : src/algorithm/non_linear_equation/secant.cpp.i
-
-src/algorithm/non_linear_equation/secant.s: src/algorithm/non_linear_equation/secant.cpp.s
-.PHONY : src/algorithm/non_linear_equation/secant.s
-
-# target to generate assembly for a file
-src/algorithm/non_linear_equation/secant.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/non_linear_equation/secant.cpp.s
-.PHONY : src/algorithm/non_linear_equation/secant.cpp.s
+src/algorithm/newton_raphson/newton_raphson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.cpp.s
+.PHONY : src/algorithm/newton_raphson/newton_raphson.cpp.s
 
 src/algorithm/regression/regression.obj: src/algorithm/regression/regression.cpp.obj
 .PHONY : src/algorithm/regression/regression.obj
@@ -367,6 +343,102 @@ src/algorithm/regression/regression.s: src/algorithm/regression/regression.cpp.s
 src/algorithm/regression/regression.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/regression/regression.cpp.s
 .PHONY : src/algorithm/regression/regression.cpp.s
+
+src/algorithm/rk_method/rk.obj: src/algorithm/rk_method/rk.cpp.obj
+.PHONY : src/algorithm/rk_method/rk.obj
+
+# target to build an object file
+src/algorithm/rk_method/rk.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/rk_method/rk.cpp.obj
+.PHONY : src/algorithm/rk_method/rk.cpp.obj
+
+src/algorithm/rk_method/rk.i: src/algorithm/rk_method/rk.cpp.i
+.PHONY : src/algorithm/rk_method/rk.i
+
+# target to preprocess a source file
+src/algorithm/rk_method/rk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/rk_method/rk.cpp.i
+.PHONY : src/algorithm/rk_method/rk.cpp.i
+
+src/algorithm/rk_method/rk.s: src/algorithm/rk_method/rk.cpp.s
+.PHONY : src/algorithm/rk_method/rk.s
+
+# target to generate assembly for a file
+src/algorithm/rk_method/rk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/rk_method/rk.cpp.s
+.PHONY : src/algorithm/rk_method/rk.cpp.s
+
+src/algorithm/secant/secant.obj: src/algorithm/secant/secant.cpp.obj
+.PHONY : src/algorithm/secant/secant.obj
+
+# target to build an object file
+src/algorithm/secant/secant.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.obj
+.PHONY : src/algorithm/secant/secant.cpp.obj
+
+src/algorithm/secant/secant.i: src/algorithm/secant/secant.cpp.i
+.PHONY : src/algorithm/secant/secant.i
+
+# target to preprocess a source file
+src/algorithm/secant/secant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.i
+.PHONY : src/algorithm/secant/secant.cpp.i
+
+src/algorithm/secant/secant.s: src/algorithm/secant/secant.cpp.s
+.PHONY : src/algorithm/secant/secant.s
+
+# target to generate assembly for a file
+src/algorithm/secant/secant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.s
+.PHONY : src/algorithm/secant/secant.cpp.s
+
+src/algorithm/simpson_one_third/simpson_one_third.obj: src/algorithm/simpson_one_third/simpson_one_third.cpp.obj
+.PHONY : src/algorithm/simpson_one_third/simpson_one_third.obj
+
+# target to build an object file
+src/algorithm/simpson_one_third/simpson_one_third.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_one_third/simpson_one_third.cpp.obj
+.PHONY : src/algorithm/simpson_one_third/simpson_one_third.cpp.obj
+
+src/algorithm/simpson_one_third/simpson_one_third.i: src/algorithm/simpson_one_third/simpson_one_third.cpp.i
+.PHONY : src/algorithm/simpson_one_third/simpson_one_third.i
+
+# target to preprocess a source file
+src/algorithm/simpson_one_third/simpson_one_third.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_one_third/simpson_one_third.cpp.i
+.PHONY : src/algorithm/simpson_one_third/simpson_one_third.cpp.i
+
+src/algorithm/simpson_one_third/simpson_one_third.s: src/algorithm/simpson_one_third/simpson_one_third.cpp.s
+.PHONY : src/algorithm/simpson_one_third/simpson_one_third.s
+
+# target to generate assembly for a file
+src/algorithm/simpson_one_third/simpson_one_third.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_one_third/simpson_one_third.cpp.s
+.PHONY : src/algorithm/simpson_one_third/simpson_one_third.cpp.s
+
+src/algorithm/simpson_three_eight/simpson_three_eight.obj: src/algorithm/simpson_three_eight/simpson_three_eight.cpp.obj
+.PHONY : src/algorithm/simpson_three_eight/simpson_three_eight.obj
+
+# target to build an object file
+src/algorithm/simpson_three_eight/simpson_three_eight.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_three_eight/simpson_three_eight.cpp.obj
+.PHONY : src/algorithm/simpson_three_eight/simpson_three_eight.cpp.obj
+
+src/algorithm/simpson_three_eight/simpson_three_eight.i: src/algorithm/simpson_three_eight/simpson_three_eight.cpp.i
+.PHONY : src/algorithm/simpson_three_eight/simpson_three_eight.i
+
+# target to preprocess a source file
+src/algorithm/simpson_three_eight/simpson_three_eight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_three_eight/simpson_three_eight.cpp.i
+.PHONY : src/algorithm/simpson_three_eight/simpson_three_eight.cpp.i
+
+src/algorithm/simpson_three_eight/simpson_three_eight.s: src/algorithm/simpson_three_eight/simpson_three_eight.cpp.s
+.PHONY : src/algorithm/simpson_three_eight/simpson_three_eight.s
+
+# target to generate assembly for a file
+src/algorithm/simpson_three_eight/simpson_three_eight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_three_eight/simpson_three_eight.cpp.s
+.PHONY : src/algorithm/simpson_three_eight/simpson_three_eight.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -401,36 +473,45 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... NumericalCalculator
+	@echo ... src/algorithm/bisection/bisection.obj
+	@echo ... src/algorithm/bisection/bisection.i
+	@echo ... src/algorithm/bisection/bisection.s
+	@echo ... src/algorithm/falsi/falsi.obj
+	@echo ... src/algorithm/falsi/falsi.i
+	@echo ... src/algorithm/falsi/falsi.s
+	@echo ... src/algorithm/gauss_elimination/gauss_elimination.obj
+	@echo ... src/algorithm/gauss_elimination/gauss_elimination.i
+	@echo ... src/algorithm/gauss_elimination/gauss_elimination.s
+	@echo ... src/algorithm/gauss_jordan/gauss_jordan.obj
+	@echo ... src/algorithm/gauss_jordan/gauss_jordan.i
+	@echo ... src/algorithm/gauss_jordan/gauss_jordan.s
 	@echo ... src/algorithm/interpolation/interpolation.obj
 	@echo ... src/algorithm/interpolation/interpolation.i
 	@echo ... src/algorithm/interpolation/interpolation.s
-	@echo ... src/algorithm/inverse/naive_inverse.obj
-	@echo ... src/algorithm/inverse/naive_inverse.i
-	@echo ... src/algorithm/inverse/naive_inverse.s
-	@echo ... src/algorithm/linear/gausselimination.obj
-	@echo ... src/algorithm/linear/gausselimination.i
-	@echo ... src/algorithm/linear/gausselimination.s
-	@echo ... src/algorithm/linear/gaussjordan.obj
-	@echo ... src/algorithm/linear/gaussjordan.i
-	@echo ... src/algorithm/linear/gaussjordan.s
-	@echo ... src/algorithm/linear/ludecomposition.obj
-	@echo ... src/algorithm/linear/ludecomposition.i
-	@echo ... src/algorithm/linear/ludecomposition.s
-	@echo ... src/algorithm/non_linear_equation/bisection.obj
-	@echo ... src/algorithm/non_linear_equation/bisection.i
-	@echo ... src/algorithm/non_linear_equation/bisection.s
-	@echo ... src/algorithm/non_linear_equation/falsi.obj
-	@echo ... src/algorithm/non_linear_equation/falsi.i
-	@echo ... src/algorithm/non_linear_equation/falsi.s
-	@echo ... src/algorithm/non_linear_equation/newton_raphson.obj
-	@echo ... src/algorithm/non_linear_equation/newton_raphson.i
-	@echo ... src/algorithm/non_linear_equation/newton_raphson.s
-	@echo ... src/algorithm/non_linear_equation/secant.obj
-	@echo ... src/algorithm/non_linear_equation/secant.i
-	@echo ... src/algorithm/non_linear_equation/secant.s
+	@echo ... src/algorithm/lu_decomposition/lu_decomposition.obj
+	@echo ... src/algorithm/lu_decomposition/lu_decomposition.i
+	@echo ... src/algorithm/lu_decomposition/lu_decomposition.s
+	@echo ... src/algorithm/naive_inverse/naive_inverse.obj
+	@echo ... src/algorithm/naive_inverse/naive_inverse.i
+	@echo ... src/algorithm/naive_inverse/naive_inverse.s
+	@echo ... src/algorithm/newton_raphson/newton_raphson.obj
+	@echo ... src/algorithm/newton_raphson/newton_raphson.i
+	@echo ... src/algorithm/newton_raphson/newton_raphson.s
 	@echo ... src/algorithm/regression/regression.obj
 	@echo ... src/algorithm/regression/regression.i
 	@echo ... src/algorithm/regression/regression.s
+	@echo ... src/algorithm/rk_method/rk.obj
+	@echo ... src/algorithm/rk_method/rk.i
+	@echo ... src/algorithm/rk_method/rk.s
+	@echo ... src/algorithm/secant/secant.obj
+	@echo ... src/algorithm/secant/secant.i
+	@echo ... src/algorithm/secant/secant.s
+	@echo ... src/algorithm/simpson_one_third/simpson_one_third.obj
+	@echo ... src/algorithm/simpson_one_third/simpson_one_third.i
+	@echo ... src/algorithm/simpson_one_third/simpson_one_third.s
+	@echo ... src/algorithm/simpson_three_eight/simpson_three_eight.obj
+	@echo ... src/algorithm/simpson_three_eight/simpson_three_eight.i
+	@echo ... src/algorithm/simpson_three_eight/simpson_three_eight.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

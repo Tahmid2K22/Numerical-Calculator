@@ -1,4 +1,4 @@
-#include "../../../include/simpson.h"
+#include "simpson.h"
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,4 +1,4 @@
-#include "../../../include/inversion.h"
+#include "inversion.h"
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -103,18 +103,3 @@ void inverse::display_save(ostream &out)
         cout << endl;
     }
 }
-
-// int main()
-// {
-//     int n;
-//     cin >> n;
-//     vector<vector<double>> matrix(n, vector<double>(n));
-//     for (int i = 0; i < n; i++)
-//         for (int j = 0; j < n; j++)
-//             cin >> matrix[i][j];
-//     inverse inv(matrix, n);
-//     inv.naive_inversion();
-//     inv.display_save(cout);
-    
-//     return 0;
-// }

@@ -1,4 +1,4 @@
-#include "../../../include/interpolation.h"
+#include "interpolation.h"
 #include <bits/stdc++.h>
 using namespace std;
 

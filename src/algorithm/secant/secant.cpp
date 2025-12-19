@@ -1,4 +1,4 @@
-#include "../../../include/non-linear_equation.h"
+#include "non-linear_equation.h"
 #include <bits/stdc++.h>
 using namespace std;
 

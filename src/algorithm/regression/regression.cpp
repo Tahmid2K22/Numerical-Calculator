@@ -1,4 +1,4 @@
-#include "../../../include/regression.h"
+#include "regression.h"
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
