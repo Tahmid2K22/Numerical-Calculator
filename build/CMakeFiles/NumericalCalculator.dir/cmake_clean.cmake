@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/NumericalCalculator.dir/src/algorithm/bisection/bisection.cpp.obj"
   "CMakeFiles/NumericalCalculator.dir/src/algorithm/bisection/bisection.cpp.obj.d"
+  "CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.obj"
+  "CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.obj.d"
+  "CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.obj"
+  "CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.obj.d"
   "CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.obj"
   "CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.obj.d"
   "CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_elimination/gauss_elimination.cpp.obj"

@@ -152,6 +152,54 @@ src/algorithm/bisection/bisection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/bisection/bisection.cpp.s
 .PHONY : src/algorithm/bisection/bisection.cpp.s
 
+src/algorithm/differentiation_backward/differentiation_backward.obj: src/algorithm/differentiation_backward/differentiation_backward.cpp.obj
+.PHONY : src/algorithm/differentiation_backward/differentiation_backward.obj
+
+# target to build an object file
+src/algorithm/differentiation_backward/differentiation_backward.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.obj
+.PHONY : src/algorithm/differentiation_backward/differentiation_backward.cpp.obj
+
+src/algorithm/differentiation_backward/differentiation_backward.i: src/algorithm/differentiation_backward/differentiation_backward.cpp.i
+.PHONY : src/algorithm/differentiation_backward/differentiation_backward.i
+
+# target to preprocess a source file
+src/algorithm/differentiation_backward/differentiation_backward.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.i
+.PHONY : src/algorithm/differentiation_backward/differentiation_backward.cpp.i
+
+src/algorithm/differentiation_backward/differentiation_backward.s: src/algorithm/differentiation_backward/differentiation_backward.cpp.s
+.PHONY : src/algorithm/differentiation_backward/differentiation_backward.s
+
+# target to generate assembly for a file
+src/algorithm/differentiation_backward/differentiation_backward.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.s
+.PHONY : src/algorithm/differentiation_backward/differentiation_backward.cpp.s
+
+src/algorithm/differentiation_forward/differentiation_forward.obj: src/algorithm/differentiation_forward/differentiation_forward.cpp.obj
+.PHONY : src/algorithm/differentiation_forward/differentiation_forward.obj
+
+# target to build an object file
+src/algorithm/differentiation_forward/differentiation_forward.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.obj
+.PHONY : src/algorithm/differentiation_forward/differentiation_forward.cpp.obj
+
+src/algorithm/differentiation_forward/differentiation_forward.i: src/algorithm/differentiation_forward/differentiation_forward.cpp.i
+.PHONY : src/algorithm/differentiation_forward/differentiation_forward.i
+
+# target to preprocess a source file
+src/algorithm/differentiation_forward/differentiation_forward.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.i
+.PHONY : src/algorithm/differentiation_forward/differentiation_forward.cpp.i
+
+src/algorithm/differentiation_forward/differentiation_forward.s: src/algorithm/differentiation_forward/differentiation_forward.cpp.s
+.PHONY : src/algorithm/differentiation_forward/differentiation_forward.s
+
+# target to generate assembly for a file
+src/algorithm/differentiation_forward/differentiation_forward.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NumericalCalculator.dir\build.make CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.s
+.PHONY : src/algorithm/differentiation_forward/differentiation_forward.cpp.s
+
 src/algorithm/falsi/falsi.obj: src/algorithm/falsi/falsi.cpp.obj
 .PHONY : src/algorithm/falsi/falsi.obj
 
@@ -476,6 +524,12 @@ help:
 	@echo ... src/algorithm/bisection/bisection.obj
 	@echo ... src/algorithm/bisection/bisection.i
 	@echo ... src/algorithm/bisection/bisection.s
+	@echo ... src/algorithm/differentiation_backward/differentiation_backward.obj
+	@echo ... src/algorithm/differentiation_backward/differentiation_backward.i
+	@echo ... src/algorithm/differentiation_backward/differentiation_backward.s
+	@echo ... src/algorithm/differentiation_forward/differentiation_forward.obj
+	@echo ... src/algorithm/differentiation_forward/differentiation_forward.i
+	@echo ... src/algorithm/differentiation_forward/differentiation_forward.s
 	@echo ... src/algorithm/falsi/falsi.obj
 	@echo ... src/algorithm/falsi/falsi.i
 	@echo ... src/algorithm/falsi/falsi.s

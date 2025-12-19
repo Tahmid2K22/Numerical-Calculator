@@ -146,11 +146,41 @@ CMakeFiles/NumericalCalculator.dir/src/algorithm/bisection/bisection.cpp.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NumericalCalculator.dir/src/algorithm/bisection/bisection.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\bisection\bisection.cpp -o CMakeFiles\NumericalCalculator.dir\src\algorithm\bisection\bisection.cpp.s
 
+CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.obj: CMakeFiles/NumericalCalculator.dir/flags.make
+CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
+CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/differentiation_forward/differentiation_forward.cpp
+CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\differentiation_forward\differentiation_forward.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\differentiation_forward\differentiation_forward.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\differentiation_forward\differentiation_forward.cpp
+
+CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\differentiation_forward\differentiation_forward.cpp > CMakeFiles\NumericalCalculator.dir\src\algorithm\differentiation_forward\differentiation_forward.cpp.i
+
+CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\differentiation_forward\differentiation_forward.cpp -o CMakeFiles\NumericalCalculator.dir\src\algorithm\differentiation_forward\differentiation_forward.cpp.s
+
+CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.obj: CMakeFiles/NumericalCalculator.dir/flags.make
+CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
+CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/differentiation_backward/differentiation_backward.cpp
+CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\differentiation_backward\differentiation_backward.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\differentiation_backward\differentiation_backward.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\differentiation_backward\differentiation_backward.cpp
+
+CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\differentiation_backward\differentiation_backward.cpp > CMakeFiles\NumericalCalculator.dir\src\algorithm\differentiation_backward\differentiation_backward.cpp.i
+
+CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\differentiation_backward\differentiation_backward.cpp -o CMakeFiles\NumericalCalculator.dir\src\algorithm\differentiation_backward\differentiation_backward.cpp.s
+
 CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.obj: CMakeFiles/NumericalCalculator.dir/flags.make
 CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/falsi/falsi.cpp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\falsi\falsi.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\falsi\falsi.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\falsi\falsi.cpp
 
 CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.i: cmake_force
@@ -165,7 +195,7 @@ CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.c
 CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/newton_raphson/newton_raphson.cpp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\newton_raphson\newton_raphson.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\newton_raphson\newton_raphson.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\newton_raphson\newton_raphson.cpp
 
 CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.cpp.i: cmake_force
@@ -180,7 +210,7 @@ CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.obj: CMakeFil
 CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/secant/secant.cpp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\secant\secant.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\secant\secant.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\secant\secant.cpp
 
 CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.i: cmake_force
@@ -195,7 +225,7 @@ CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_elimination/gauss_elimina
 CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_elimination/gauss_elimination.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_elimination/gauss_elimination.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/gauss_elimination/gauss_elimination.cpp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_elimination/gauss_elimination.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_elimination/gauss_elimination.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_elimination/gauss_elimination.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_elimination/gauss_elimination.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\gauss_elimination\gauss_elimination.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\gauss_elimination\gauss_elimination.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\gauss_elimination\gauss_elimination.cpp
 
 CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_elimination/gauss_elimination.cpp.i: cmake_force
@@ -210,7 +240,7 @@ CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_jordan/gauss_jordan.cpp.o
 CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_jordan/gauss_jordan.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_jordan/gauss_jordan.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/gauss_jordan/gauss_jordan.cpp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_jordan/gauss_jordan.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_jordan/gauss_jordan.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_jordan/gauss_jordan.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_jordan/gauss_jordan.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\gauss_jordan\gauss_jordan.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\gauss_jordan\gauss_jordan.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\gauss_jordan\gauss_jordan.cpp
 
 CMakeFiles/NumericalCalculator.dir/src/algorithm/gauss_jordan/gauss_jordan.cpp.i: cmake_force
@@ -225,7 +255,7 @@ CMakeFiles/NumericalCalculator.dir/src/algorithm/lu_decomposition/lu_decompositi
 CMakeFiles/NumericalCalculator.dir/src/algorithm/lu_decomposition/lu_decomposition.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/lu_decomposition/lu_decomposition.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/lu_decomposition/lu_decomposition.cpp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/lu_decomposition/lu_decomposition.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/lu_decomposition/lu_decomposition.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/lu_decomposition/lu_decomposition.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/lu_decomposition/lu_decomposition.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\lu_decomposition\lu_decomposition.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\lu_decomposition\lu_decomposition.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\lu_decomposition\lu_decomposition.cpp
 
 CMakeFiles/NumericalCalculator.dir/src/algorithm/lu_decomposition/lu_decomposition.cpp.i: cmake_force
@@ -240,7 +270,7 @@ CMakeFiles/NumericalCalculator.dir/src/algorithm/rk_method/rk.cpp.obj: CMakeFile
 CMakeFiles/NumericalCalculator.dir/src/algorithm/rk_method/rk.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/rk_method/rk.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/rk_method/rk.cpp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/rk_method/rk.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/rk_method/rk.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/rk_method/rk.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/rk_method/rk.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\rk_method\rk.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\rk_method\rk.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\rk_method\rk.cpp
 
 CMakeFiles/NumericalCalculator.dir/src/algorithm/rk_method/rk.cpp.i: cmake_force
@@ -255,7 +285,7 @@ CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_one_third/simpson_one_t
 CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_one_third/simpson_one_third.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_one_third/simpson_one_third.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/simpson_one_third/simpson_one_third.cpp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_one_third/simpson_one_third.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_one_third/simpson_one_third.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_one_third/simpson_one_third.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_one_third/simpson_one_third.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\simpson_one_third\simpson_one_third.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\simpson_one_third\simpson_one_third.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\simpson_one_third\simpson_one_third.cpp
 
 CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_one_third/simpson_one_third.cpp.i: cmake_force
@@ -270,7 +300,7 @@ CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_three_eight/simpson_thr
 CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_three_eight/simpson_three_eight.cpp.obj: CMakeFiles/NumericalCalculator.dir/includes_CXX.rsp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_three_eight/simpson_three_eight.cpp.obj: E:/2-2/Neumerical/ProjectName/Numerical-Calculator/src/algorithm/simpson_three_eight/simpson_three_eight.cpp
 CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_three_eight/simpson_three_eight.cpp.obj: CMakeFiles/NumericalCalculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_three_eight/simpson_three_eight.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_three_eight/simpson_three_eight.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_three_eight/simpson_three_eight.cpp.obj -MF CMakeFiles\NumericalCalculator.dir\src\algorithm\simpson_three_eight\simpson_three_eight.cpp.obj.d -o CMakeFiles\NumericalCalculator.dir\src\algorithm\simpson_three_eight\simpson_three_eight.cpp.obj -c E:\2-2\Neumerical\ProjectName\Numerical-Calculator\src\algorithm\simpson_three_eight\simpson_three_eight.cpp
 
 CMakeFiles/NumericalCalculator.dir/src/algorithm/simpson_three_eight/simpson_three_eight.cpp.i: cmake_force
@@ -288,6 +318,8 @@ NumericalCalculator_OBJECTS = \
 "CMakeFiles/NumericalCalculator.dir/src/algorithm/naive_inverse/naive_inverse.cpp.obj" \
 "CMakeFiles/NumericalCalculator.dir/src/algorithm/regression/regression.cpp.obj" \
 "CMakeFiles/NumericalCalculator.dir/src/algorithm/bisection/bisection.cpp.obj" \
+"CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.obj" \
+"CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.obj" \
 "CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.obj" \
 "CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.cpp.obj" \
 "CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.obj" \
@@ -306,6 +338,8 @@ NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/interp
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/naive_inverse/naive_inverse.cpp.obj
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/regression/regression.cpp.obj
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/bisection/bisection.cpp.obj
+NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_forward/differentiation_forward.cpp.obj
+NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/differentiation_backward/differentiation_backward.cpp.obj
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/falsi/falsi.cpp.obj
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/newton_raphson/newton_raphson.cpp.obj
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/src/algorithm/secant/secant.cpp.obj
@@ -319,7 +353,7 @@ NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/build.make
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/linkLibs.rsp
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/objects1.rsp
 NumericalCalculator.exe: CMakeFiles/NumericalCalculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable NumericalCalculator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\2-2\Neumerical\ProjectName\Numerical-Calculator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable NumericalCalculator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\NumericalCalculator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

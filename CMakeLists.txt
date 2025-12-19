@@ -12,6 +12,8 @@ add_executable(NumericalCalculator
     src/algorithm/naive_inverse/naive_inverse.cpp
     src/algorithm/regression/regression.cpp
     src/algorithm/bisection/bisection.cpp
+    src/algorithm/differentiation_forward/differentiation_forward.cpp
+    src/algorithm/differentiation_backward/differentiation_backward.cpp
     src/algorithm/falsi/falsi.cpp
     src/algorithm/newton_raphson/newton_raphson.cpp
     src/algorithm/secant/secant.cpp   
