@@ -4,7 +4,7 @@ Purpose
 - Approximate the first derivative from function values (or sampled data).
 
 Formula
-f'(x) \approx (f(x+h) - f(x)) / h
+f'(x) approx (f(x+h) - f(x)) / h
 
 Accuracy
 - First-order accurate in h (truncation error is O(h)).

@@ -1,10 +1,10 @@
 Interpolation
 
 Goal
-- Estimate f(x) at points between known samples (x_i, y_i).
+- Estimate f(x) at points between known samples (xi, yi).
 
 Definition
-- Interpolation constructs a function p(x) such that p(x_i) = y_i for all data points.
+- Interpolation constructs a function p(x) such that p(xi) = yi for all data points.
 
 Common approaches
 - Lagrange form: builds p(x) as a weighted sum of basis polynomials.

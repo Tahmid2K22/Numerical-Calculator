@@ -1,14 +1,14 @@
 Naive matrix inversion
 
 Goal
-- Compute the inverse A^{-1} (if it exists) and use it to solve Ax=b as x = A^{-1} b.
+- Compute the inverse A^(-1) (if it exists) and use it to solve Ax=b as x = A^(-1) b.
 
 Key facts
 - A matrix is invertible only if det(A) != 0 (equivalently, A is non-singular).
-- One way to compute an inverse is via row-reduction on [A | I] to obtain [I | A^{-1}].
+- One way to compute an inverse is via row-reduction on [A | I] to obtain [I | A^(-1)].
 
 Practical note
-- In numerical computing, explicitly forming A^{-1} is usually discouraged:
+- In numerical computing, explicitly forming A^(-1) is usually discouraged:
 	it is often slower and can amplify floating-point error compared to solving Ax=b directly.
 - LU decomposition or Gaussian elimination is typically preferred for solving systems.
 

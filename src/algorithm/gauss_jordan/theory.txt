@@ -11,5 +11,5 @@ Algorithm outline
 Notes
 - Produces the solution vector directly without a separate back-substitution step.
 - Typically more arithmetic than Gaussian elimination; pivoting is still important for stability.
-- Can also be used to compute inverses by reducing [A | I] to [I | A^{-1}].
+- Can also be used to compute inverses by reducing [A | I] to [I | A^(-1)].
 

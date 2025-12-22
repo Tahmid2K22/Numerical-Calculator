@@ -5,12 +5,12 @@ Goal
 
 Least squares idea
 - Choose model parameters to minimize the sum of squared residuals:
-	minimize  Σ (y_i - y_hat(x_i))^2
+	minimize  sum over i of (yi - yhat(xi))^2
 
 Common models
 - Linear: y = a + b x
 - Polynomial: y = a0 + a1 x + ... + ak x^k
-- Exponential: y = a e^{b x} (often linearized by taking log)
+- Exponential: y = a * e^(b*x) (often linearized by taking log)
 - Power law: y = a x^b (often linearized by taking log)
 
 Notes

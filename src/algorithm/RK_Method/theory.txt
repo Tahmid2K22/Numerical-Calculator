@@ -5,7 +5,7 @@ Goal
 	y' = f(x,y),  y(x0)=y0
 
 Idea
-- Step forward from x_n to x_{n+1} = x_n + h.
+- Step forward from x(n) to x(n+1) = x(n) + h.
 - Compute several slope estimates (k-values) inside the step and combine them.
 
 Why it works well

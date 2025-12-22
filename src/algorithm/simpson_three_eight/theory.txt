@@ -1,7 +1,7 @@
 Simpson’s 3/8 rule (numerical integration)
 
 Goal
-- Approximate the definite integral \int_a^b f(x) dx.
+- Approximate the definite integral (integral from a to b of f(x) dx).
 
 Idea
 - Fit a cubic polynomial through four equally spaced points (3 subintervals) and integrate the cubic.

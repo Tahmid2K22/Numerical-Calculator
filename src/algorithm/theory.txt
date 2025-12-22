@@ -6,7 +6,7 @@ This repository contains implementations of standard numerical algorithms. The g
 Root finding solves f(x)=0.
 - Bisection: maintains a bracket [a,b] with f(a)f(b)<0 and repeatedly halves it. Always converges for continuous f, but is relatively slow.
 - False Position (Regula Falsi): also bracketing, but chooses the next point from the secant line intersection. Often improves early progress.
-- Newton–Raphson: uses derivative information, x_{n+1}=x_n - f(x_n)/f'(x_n). Can converge very fast near a root, but may diverge with a poor initial guess.
+- Newton–Raphson: uses derivative information, x(n+1)=x(n) - f(x(n))/f'(x(n)). Can converge very fast near a root, but may diverge with a poor initial guess.
 - Secant: replaces the derivative by a finite-difference slope using the last two iterates. No derivative needed; convergence is often good but not guaranteed.
 
 2) Linear systems
