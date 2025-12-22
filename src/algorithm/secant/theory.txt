@@ -1,0 +1,18 @@
+Secant method (root finding)
+
+Goal
+- Find a root of f(x)=0 without computing derivatives.
+
+Update rule
+Uses the slope of the secant line through the last two iterates:
+x_{n+1} = x_n - f(x_n) * (x_n - x_{n-1}) / (f(x_n) - f(x_{n-1}))
+
+Stopping criteria
+- |f(x_n)| < tolerance
+- or |x_{n+1} - x_n| < tolerance
+- or max iterations reached
+
+Notes
+- Often faster than bisection in practice.
+- Not guaranteed to converge; can fail if f(x_n) and f(x_{n-1}) are too close (division by small number).
+

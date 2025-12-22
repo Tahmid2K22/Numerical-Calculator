@@ -1,0 +1,20 @@
+Project theory (overview)
+
+Numerical methods are algorithms that approximate solutions to mathematical problems when an exact closed-form solution is not available (or is expensive to compute). They are widely used in engineering and scientific computing because many real problems involve noisy data, non-linear equations, or large systems that cannot be solved symbolically.
+
+This project groups several core topics:
+- Root finding for non-linear equations (solve f(x)=0)
+- Solving linear systems Ax=b and related matrix operations
+- Interpolation and regression for data-based modeling
+- Numerical differentiation and numerical integration
+- Numerical ODE solvers (initial value problems)
+
+How this project runs:
+- The driver in src/main.cpp reads an operation keyword from ../tests/input.txt.
+- Based on that keyword, it calls the corresponding implementation under src/algorithm/.
+- Results are written to ../tests/output.txt.
+
+Good practice notes:
+- Many methods require assumptions (e.g., continuity for bracketing methods, non-singular matrices for linear solvers).
+- The choice of step size (h), tolerance, and iteration limits strongly affects accuracy and stability.
+

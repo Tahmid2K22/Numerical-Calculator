@@ -1,0 +1,3 @@
+# Placeholder input file for algorithms
+#
+# Main runner reads operations from ../tests/input.txt.

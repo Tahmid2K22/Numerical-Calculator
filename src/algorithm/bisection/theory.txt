@@ -1,0 +1,26 @@
+Bisection method (root finding)
+
+Goal
+- Find a root of f(x)=0 on an interval [a,b].
+
+Requirement
+- f is continuous on [a,b]
+- f(a) and f(b) have opposite signs (f(a)f(b) < 0), so a root is bracketed.
+
+Algorithm (core idea)
+1) Compute midpoint m = (a+b)/2.
+2) Decide which sub-interval still brackets a root:
+	- If f(a)f(m) < 0, set b = m.
+	- Else set a = m.
+3) Repeat until the interval is small enough.
+
+Stopping criteria
+- |b-a| < tolerance (interval width)
+- or |f(m)| < tolerance
+- or max iterations reached
+
+Properties / notes
+- Guaranteed convergence under the continuity + sign-change condition.
+- Convergence is linear; the interval shrinks by ~1/2 per iteration.
+- Works best when you can reliably bracket a single root.
+

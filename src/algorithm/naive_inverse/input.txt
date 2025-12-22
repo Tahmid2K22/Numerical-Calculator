@@ -1,0 +1,2 @@
+# naive_inverse (matrix inversion)
+# Per-module example input (optional). Main program reads ../tests/input.txt.

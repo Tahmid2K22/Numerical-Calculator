@@ -1,0 +1,20 @@
+Forward finite difference (numerical differentiation)
+
+Purpose
+- Approximate the first derivative from function values (or sampled data).
+
+Formula
+f'(x) \approx (f(x+h) - f(x)) / h
+
+Accuracy
+- First-order accurate in h (truncation error is O(h)).
+
+How to choose h (practical note)
+- If h is too large: truncation error dominates (poor approximation).
+- If h is too small: floating-point round-off can dominate because f(x+h)-f(x) may lose precision.
+In practice, h is chosen based on the scale of x and the data precision.
+
+When it is useful
+- When you can evaluate (or measure) f at x and at a forward point x+h.
+- Common in time-stepping data where “future” samples exist but “past” samples may not.
+

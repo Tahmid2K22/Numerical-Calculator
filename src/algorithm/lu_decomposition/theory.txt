@@ -1,0 +1,18 @@
+LU decomposition (linear systems)
+
+Goal
+- Solve Ax=b efficiently, especially for multiple right-hand sides.
+
+Idea
+- Factor A into A = L U where:
+  - L is lower-triangular (often with 1s on the diagonal)
+  - U is upper-triangular
+
+How it solves Ax=b
+1) Solve L y = b (forward substitution).
+2) Solve U x = y (back substitution).
+
+Notes
+- Some matrices require pivoting (PA = LU) for numerical stability or to avoid zero pivots.
+- Like Gaussian elimination, factorization is ~O(n^3), but each additional solve is ~O(n^2).
+

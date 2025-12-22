@@ -1,0 +1,4 @@
+# Placeholder input file
+#
+# This project is driven by ../tests/input.txt (see src/main.cpp).
+# You can keep per-module examples here if you want.

@@ -1,0 +1,15 @@
+Gauss–Jordan elimination (linear systems)
+
+Goal
+- Solve Ax=b by reducing the augmented matrix [A | b] to [I | x].
+
+Algorithm outline
+1) For each column (pivot position), scale the pivot row so the pivot becomes 1.
+2) Eliminate the pivot column entries in all other rows (both above and below the pivot).
+3) Continue until A becomes the identity matrix I.
+
+Notes
+- Produces the solution vector directly without a separate back-substitution step.
+- Typically more arithmetic than Gaussian elimination; pivoting is still important for stability.
+- Can also be used to compute inverses by reducing [A | I] to [I | A^{-1}].
+

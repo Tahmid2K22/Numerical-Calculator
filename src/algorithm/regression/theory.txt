@@ -1,0 +1,19 @@
+Regression (curve fitting)
+
+Goal
+- Fit a model to data when measurements may contain noise.
+
+Least squares idea
+- Choose model parameters to minimize the sum of squared residuals:
+	minimize  Σ (y_i - y_hat(x_i))^2
+
+Common models
+- Linear: y = a + b x
+- Polynomial: y = a0 + a1 x + ... + ak x^k
+- Exponential: y = a e^{b x} (often linearized by taking log)
+- Power law: y = a x^b (often linearized by taking log)
+
+Notes
+- Regression does not necessarily pass through every data point.
+- Model choice should match the data trend; overfitting can occur with high-degree polynomials.
+

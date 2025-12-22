@@ -1,0 +1,43 @@
+
+
+# Build artifacts
+/build/
+/bin/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+*.ninja
+/.ninja_deps
+/.ninja_log
+
+# Compiler / linker outputs
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+*.ilk
+*.idb
+*.pch
+
+# Editor / IDE
+.vscode/
+.idea/
+*.user
+*.suo
+*.cache
+
+# Logs / temp
+*.log
+*.tmp
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+

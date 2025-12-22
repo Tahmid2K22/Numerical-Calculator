@@ -1,0 +1,2 @@
+# gauss_jordan
+# Per-module example input (optional). Main program reads ../tests/input.txt.

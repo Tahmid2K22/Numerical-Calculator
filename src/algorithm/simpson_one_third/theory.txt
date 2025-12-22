@@ -1,0 +1,19 @@
+Simpson’s 1/3 rule (numerical integration)
+
+Goal
+- Approximate the definite integral \int_a^b f(x) dx.
+
+Idea
+- On each pair of subintervals, fit a quadratic (parabola) through three points and integrate that polynomial.
+
+Composite rule requirements
+- The interval [a,b] is split into n equal subintervals where n must be even.
+- Step size h = (b-a)/n.
+
+Accuracy
+- For smooth functions, the composite Simpson 1/3 rule has error O(h^4).
+
+Notes
+- Much more accurate than the trapezoidal rule for smooth functions.
+- If f is not smooth, reducing h may be necessary.
+

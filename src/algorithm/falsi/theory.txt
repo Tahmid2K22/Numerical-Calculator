@@ -1,0 +1,19 @@
+Regula Falsi / False Position (root finding)
+
+Goal
+- Find a root of f(x)=0 while keeping a bracketing interval [a,b] such that f(a)f(b) < 0.
+
+Core idea
+- Use the secant line through (a,f(a)) and (b,f(b)) to estimate the x-intercept:
+	c = (a*f(b) - b*f(a)) / (f(b) - f(a))
+Then replace either a or b with c so the sign-change bracket is preserved.
+
+Stopping criteria
+- |f(c)| < tolerance
+- or |b-a| < tolerance
+- or max iterations reached
+
+Notes
+- Often improves over bisection because it uses function values to “aim” toward the root.
+- Can stagnate when one endpoint keeps getting selected; variants (Illinois, Pegasus) address this.
+

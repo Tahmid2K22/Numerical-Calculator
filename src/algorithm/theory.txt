@@ -1,0 +1,31 @@
+Numerical Calculator — theory (a bit more detail)
+
+This repository contains implementations of standard numerical algorithms. The goal is educational: to show how each method works, what assumptions it needs, and what trade-offs it makes (accuracy vs. speed vs. stability).
+
+1) Root finding (non-linear equations)
+Root finding solves f(x)=0.
+- Bisection: maintains a bracket [a,b] with f(a)f(b)<0 and repeatedly halves it. Always converges for continuous f, but is relatively slow.
+- False Position (Regula Falsi): also bracketing, but chooses the next point from the secant line intersection. Often improves early progress.
+- Newton–Raphson: uses derivative information, x_{n+1}=x_n - f(x_n)/f'(x_n). Can converge very fast near a root, but may diverge with a poor initial guess.
+- Secant: replaces the derivative by a finite-difference slope using the last two iterates. No derivative needed; convergence is often good but not guaranteed.
+
+2) Linear systems
+Linear solvers compute x from Ax=b.
+- Gauss Elimination: forward elimination to upper-triangular form, then back substitution.
+- Gauss Jordan: reduces [A|b] to [I|x] (RREF). Simple to understand, but can be more arithmetic.
+- LU Decomposition: factor A = L U, then solve Ly=b and Ux=y. Efficient for repeated right-hand sides.
+
+3) Interpolation and regression
+- Interpolation builds a curve that passes exactly through all data points (useful for table lookups).
+- Regression fits a model approximately by minimizing error (useful for noisy measurements).
+
+4) Numerical calculus
+- Finite differences approximate derivatives using nearby samples; step size h controls truncation vs round-off error.
+- Simpson rules approximate integrals by polynomial fitting on subintervals.
+
+5) ODE solving
+- Runge–Kutta methods approximate the solution of y' = f(x,y) using multiple slope evaluations per step.
+
+How to run:
+- src/main.cpp reads operation keywords from ../tests/input.txt and writes results to ../tests/output.txt.
+

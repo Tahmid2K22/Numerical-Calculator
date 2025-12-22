@@ -1,0 +1,16 @@
+Interpolation
+
+Goal
+- Estimate f(x) at points between known samples (x_i, y_i).
+
+Definition
+- Interpolation constructs a function p(x) such that p(x_i) = y_i for all data points.
+
+Common approaches
+- Lagrange form: builds p(x) as a weighted sum of basis polynomials.
+- Newton divided differences: builds p(x) incrementally; efficient when adding new data points.
+
+Notes / limitations
+- High-degree polynomial interpolation over many points can oscillate (Runge phenomenon).
+- Piecewise methods (splines) are often preferred for large datasets.
+

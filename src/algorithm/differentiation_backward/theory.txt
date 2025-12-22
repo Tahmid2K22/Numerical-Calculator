@@ -1,0 +1,18 @@
+Backward finite difference (numerical differentiation)
+
+Purpose
+- Approximate the first derivative using values behind x.
+
+Formula
+f'(x) \approx (f(x) - f(x-h)) / h
+
+Accuracy
+- First-order accurate in h (truncation error O(h)).
+
+Practical note on h
+- Very small h can amplify round-off error; very large h increases truncation error.
+
+When it is useful
+- When you have samples at x and earlier points (x-h).
+- Common in streaming scenarios where “past” data is available but “future” values are not.
+

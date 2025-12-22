@@ -1,0 +1,21 @@
+Newton–Raphson method (root finding)
+
+Goal
+- Find a root of f(x)=0 using tangent-line updates.
+
+Update rule
+x_{n+1} = x_n - f(x_n) / f'(x_n)
+
+Intuition
+- Replace the function by its tangent line at x_n; the x-intercept of that line becomes x_{n+1}.
+
+Stopping criteria
+- |f(x_n)| < tolerance
+- or |x_{n+1} - x_n| < tolerance
+- or max iterations reached
+
+Notes
+- Converges very fast (often quadratic) when close to a simple root.
+- Can fail if f'(x_n) is zero/small or the initial guess is poor.
+- If the derivative is unavailable, the secant method approximates it.
+

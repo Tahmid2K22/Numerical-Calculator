@@ -1,0 +1,17 @@
+Gaussian elimination (linear systems)
+
+Goal
+- Solve the linear system Ax=b.
+
+Algorithm outline
+1) Forward elimination: apply row operations to convert A into an upper-triangular matrix U.
+2) Back substitution: solve Ux=b' starting from the last equation.
+
+Pivoting (stability)
+- Partial pivoting swaps rows to place a large (in magnitude) pivot element on the diagonal.
+- This reduces numerical error and avoids division by very small numbers.
+
+Notes
+- If A is singular or nearly singular, elimination may fail or produce large errors.
+- Complexity is roughly O(n^3) for an n×n system.
+

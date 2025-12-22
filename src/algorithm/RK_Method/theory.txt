@@ -1,0 +1,17 @@
+Runge–Kutta methods (ODE initial value problems)
+
+Goal
+- Approximate the solution to an initial value problem (IVP):
+	y' = f(x,y),  y(x0)=y0
+
+Idea
+- Step forward from x_n to x_{n+1} = x_n + h.
+- Compute several slope estimates (k-values) inside the step and combine them.
+
+Why it works well
+- Compared to simple Euler’s method, RK methods reduce error by using more information about the slope across the interval.
+
+Notes
+- Step size h controls accuracy and stability.
+- RK4 is a common default because it is accurate for many smooth problems without being too expensive.
+
