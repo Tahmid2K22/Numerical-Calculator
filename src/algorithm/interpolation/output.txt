@@ -1,1 +1,2 @@
-# Output placeholder for interpolation
+Data Points:
+Result: 2.25000000

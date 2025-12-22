@@ -1,2 +1,3 @@
-# bisection
-# Put example inputs here if desired. The main program reads ../tests/input.txt.
+2
+1 0 -4
+1 0 1 0.000001 100

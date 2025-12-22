@@ -1,2 +1,3 @@
-# newton_raphson
-# Per-module example input (optional). Main program reads ../tests/input.txt.
+2
+1 0 -4
+3 0.000001 100

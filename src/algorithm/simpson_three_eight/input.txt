@@ -1,2 +1,3 @@
-# simpson_three_eight
-# Per-module example input (optional). Main program reads ../tests/input.txt.
+0 3 6
+2
+1 0 0

@@ -1,2 +1,4 @@
-# regression
-# Per-module example input (optional). Main program reads ../tests/input.txt.
+4
+1 2 3 4
+2 4 6 8
+2.5

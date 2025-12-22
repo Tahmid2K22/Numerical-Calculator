@@ -11,6 +11,7 @@ int main()
     ifstream inp("../tests/input.txt");
     ofstream out("../tests/output.txt");
     string operation;
+    string method;
     out << fixed << setprecision(8);
 
     while (inp >> operation)
@@ -31,24 +32,46 @@ int main()
         }
         else if (operation == "regression")
         {
-            inp >> operation;
+            // Optional method token: regression [linear|power|exponential|polynomial]
+            // If omitted, defaults to linear regression.
+            method = "linear";
+            {
+                streampos pos = inp.tellg();
+                string maybeMethod;
+                if (inp >> maybeMethod)
+                {
+                    if (maybeMethod == "linear" || maybeMethod == "power" || maybeMethod == "exponential" || maybeMethod == "polynomial")
+                    {
+                        method = maybeMethod;
+                    }
+                    else
+                    {
+                        inp.clear();
+                        inp.seekg(pos);
+                    }
+                }
+                else
+                {
+                    inp.clear();
+                }
+            }
             regression reg;
             reg.input_data(inp);
             double x_target;
             inp >> x_target;
-            if (operation == "linear")
+            if (method == "linear")
             {
                 out << "Linear Regression: " << reg.linear_regress(x_target) << endl;
             }
-            else if (operation == "power")
+            else if (method == "power")
             {
                 out << "Power Transcendental Regression: " << reg.transcen_regress_power(x_target) << endl;
             }
-            else if (operation == "exponential")
+            else if (method == "exponential")
             {
                 out << "Exponential Transcendental Regression: " << reg.transcen_regress_exp(x_target) << endl;
             }
-            else if (operation == "polynomial")
+            else if (method == "polynomial")
             {
                 out << "Polynomial Regression: " << reg.poly_regress(x_target) << endl;
             }
@@ -81,21 +104,21 @@ int main()
             sec.secantMethod();
             sec.display_save(out);
         }
-        else if(operation=="gaussjordan")
+        else if (operation == "gaussjordan")
         {
             GaussJordan gaussjordan;
             gaussjordan.input_data(inp);
             gaussjordan.solve();
             gaussjordan.display_save(out);
         }
-        else if(operation=="gausselimination")
+        else if (operation == "gausselimination")
         {
             GaussElimination gausselimination;
             gausselimination.input_data(inp);
             gausselimination.solve();
             gausselimination.display_save(out);
         }
-        else if(operation=="ludecomposition")
+        else if (operation == "ludecomposition")
         {
             LUDecomposition ludecomposition;
             ludecomposition.input_data(inp);

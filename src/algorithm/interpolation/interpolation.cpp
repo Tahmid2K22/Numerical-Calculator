@@ -2,16 +2,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-Interpolation::Interpolation() {
+Interpolation::Interpolation()
+{
     method = "NONE";
 }
-
-
-
-
-
-
 
 vector<double> Interpolation::cal_diff(vector<double> &y, long long diff, long long it)
 {
@@ -63,49 +57,79 @@ double Interpolation::f_interpolation()
     return res;
 }
 
+void Interpolation::input_data(ifstream &inp)
+{
 
-
-void Interpolation::input_data(ifstream &inp) {
-   
     inp >> n;
     x.resize(n);
     y.resize(n);
-   
-    for (long long i = 0; i < n; i++) {
+
+    for (long long i = 0; i < n; i++)
+    {
         inp >> x[i] >> y[i];
-        //cout << "Data Point " << i + 1 << ": (" << x[i] << ", " << y[i] << ")\n";
+        // cout << "Data Point " << i + 1 << ": (" << x[i] << ", " << y[i] << ")\n";
     }
-   
+
     inp >> target;
-    inp >> method;
-    if(method=="NONE") {
+
+    // Optional method token: forward|backward|div_diff|NONE
+    // If omitted, it is auto-selected based on x-spacing and target.
+    method = "NONE";
+    {
+        streampos pos = inp.tellg();
+        string maybeMethod;
+        if (inp >> maybeMethod)
+        {
+            if (maybeMethod == "forward" || maybeMethod == "backward" || maybeMethod == "div_diff" || maybeMethod == "NONE")
+            {
+                method = maybeMethod;
+            }
+            else
+            {
+                inp.clear();
+                inp.seekg(pos);
+            }
+        }
+        else
+        {
+            inp.clear();
+        }
+    }
+
+    if (method == "NONE")
+    {
         dynamic_method_find();
     }
-   
 }
 
-void Interpolation::display_save(ofstream &out) {
+void Interpolation::display_save(ofstream &out)
+{
     out << "Data Points:\n";
-    for (long long i = 0; i < n; i++) {
-        //out << x[i] << " " << y[i] << "\n";
+    for (long long i = 0; i < n; i++)
+    {
+        // out << x[i] << " " << y[i] << "\n";
     }
     out << "Result: " << result << "\n";
     cout << "Result: " << result << "\n";
-
 }
 
 void Interpolation::dynamic_method_find()
 {
-    if(method!="NONE") return;
-    double h = x[1]-x[0];
-    for(int i=2;i<n;i++) {
-        if(abs((x[i]-x[i-1])-h)>1e-9) {
-            method="div_diff";
+    if (method != "NONE")
+        return;
+    double h = x[1] - x[0];
+    for (int i = 2; i < n; i++)
+    {
+        if (abs((x[i] - x[i - 1]) - h) > 1e-9)
+        {
+            method = "div_diff";
             return;
         }
     }
-    if(abs(target-x[0])<=abs(target-x[n-1])) method="forward";
-    else method="backward";
-    
+    if (abs(target - x[0]) <= abs(target - x[n - 1]))
+        method = "forward";
+    else
+        method = "backward";
+
     return;
 }

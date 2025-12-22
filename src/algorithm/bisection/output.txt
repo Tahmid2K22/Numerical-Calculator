@@ -1,1 +1,2 @@
-# Output placeholder for bisection
+[2.00000000 2.00000000]
+2.00000000
