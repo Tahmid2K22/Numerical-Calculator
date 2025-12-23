@@ -23,7 +23,7 @@ This project is developed in C++ to provide solutions to common numerical proble
 
 Each algorithm folder also includes `input.txt`, `output.txt`, and `theory.txt`.
 
-Note: Some algorithms support optional method selection in the input (e.g. interpolation and regression). If you omit the method token, the program uses a sensible default.
+Some algorithms support optional method selection in the input (e.g. interpolation and regression). If you omit the method token, the program uses a sensible default.
 
 
 ## Algorithms
@@ -32,18 +32,18 @@ Quick links to folders + sample files:
 
 | Algorithm | Category | Folder | Sample input | Sample output |
 |---|---|---|---|---|
-| Bisection | Root finding | [`src/algorithm/bisection/`](src/algorithm/bisection/) | [`input.txt`](src/algorithm/bisection/input.txt) | [`output.txt`](src/algorithm/bisection/output.txt) |
-| False Position | Root finding | [`src/algorithm/falsi/`](src/algorithm/falsi/) | [`input.txt`](src/algorithm/falsi/input.txt) | [`output.txt`](src/algorithm/falsi/output.txt) |
-| Newton–Raphson | Root finding | [`src/algorithm/newton_raphson/`](src/algorithm/newton_raphson/) | [`input.txt`](src/algorithm/newton_raphson/input.txt) | [`output.txt`](src/algorithm/newton_raphson/output.txt) |
-| Secant | Root finding | [`src/algorithm/secant/`](src/algorithm/secant/) | [`input.txt`](src/algorithm/secant/input.txt) | [`output.txt`](src/algorithm/secant/output.txt) |
+| Bisection | Non-Linear System | [`src/algorithm/bisection/`](src/algorithm/bisection/) | [`input.txt`](src/algorithm/bisection/input.txt) | [`output.txt`](src/algorithm/bisection/output.txt) |
+| False Position | Non-Linear System | [`src/algorithm/falsi/`](src/algorithm/falsi/) | [`input.txt`](src/algorithm/falsi/input.txt) | [`output.txt`](src/algorithm/falsi/output.txt) |
+| Newton–Raphson | Non-Linear System | [`src/algorithm/newton_raphson/`](src/algorithm/newton_raphson/) | [`input.txt`](src/algorithm/newton_raphson/input.txt) | [`output.txt`](src/algorithm/newton_raphson/output.txt) |
+| Secant | Non-Linear System | [`src/algorithm/secant/`](src/algorithm/secant/) | [`input.txt`](src/algorithm/secant/input.txt) | [`output.txt`](src/algorithm/secant/output.txt) |
 | Gauss Elimination | Linear systems | [`src/algorithm/gauss_elimination/`](src/algorithm/gauss_elimination/) | [`input.txt`](src/algorithm/gauss_elimination/input.txt) | [`output.txt`](src/algorithm/gauss_elimination/output.txt) |
 | Gauss–Jordan | Linear systems | [`src/algorithm/gauss_jordan/`](src/algorithm/gauss_jordan/) | [`input.txt`](src/algorithm/gauss_jordan/input.txt) | [`output.txt`](src/algorithm/gauss_jordan/output.txt) |
 | LU Decomposition | Linear systems | [`src/algorithm/lu_decomposition/`](src/algorithm/lu_decomposition/) | [`input.txt`](src/algorithm/lu_decomposition/input.txt) | [`output.txt`](src/algorithm/lu_decomposition/output.txt) |
-| Naive inverse | Linear algebra | [`src/algorithm/naive_inverse/`](src/algorithm/naive_inverse/) | [`input.txt`](src/algorithm/naive_inverse/input.txt) | [`output.txt`](src/algorithm/naive_inverse/output.txt) |
+| inverse | Linear algebra | [`src/algorithm/naive_inverse/`](src/algorithm/naive_inverse/) | [`input.txt`](src/algorithm/naive_inverse/input.txt) | [`output.txt`](src/algorithm/naive_inverse/output.txt) |
 | Interpolation | Interpolation | [`src/algorithm/interpolation/`](src/algorithm/interpolation/) | [`input.txt`](src/algorithm/interpolation/input.txt) | [`output.txt`](src/algorithm/interpolation/output.txt) |
 | Regression | Curve fitting | [`src/algorithm/regression/`](src/algorithm/regression/) | [`input.txt`](src/algorithm/regression/input.txt) | [`output.txt`](src/algorithm/regression/output.txt) |
-| Forward diff | Differentiation | [`src/algorithm/differentiation_forward/`](src/algorithm/differentiation_forward/) | [`input.txt`](src/algorithm/differentiation_forward/input.txt) | [`output.txt`](src/algorithm/differentiation_forward/output.txt) |
-| Backward diff | Differentiation | [`src/algorithm/differentiation_backward/`](src/algorithm/differentiation_backward/) | [`input.txt`](src/algorithm/differentiation_backward/input.txt) | [`output.txt`](src/algorithm/differentiation_backward/output.txt) |
+| Forward difference | Differentiation | [`src/algorithm/differentiation_forward/`](src/algorithm/differentiation_forward/) | [`input.txt`](src/algorithm/differentiation_forward/input.txt) | [`output.txt`](src/algorithm/differentiation_forward/output.txt) |
+| Backward difference | Differentiation | [`src/algorithm/differentiation_backward/`](src/algorithm/differentiation_backward/) | [`input.txt`](src/algorithm/differentiation_backward/input.txt) | [`output.txt`](src/algorithm/differentiation_backward/output.txt) |
 | Runge–Kutta | ODE solving | [`src/algorithm/RK_Method/`](src/algorithm/RK_Method/) | [`input.txt`](src/algorithm/RK_Method/input.txt) | [`output.txt`](src/algorithm/RK_Method/output.txt) |
 | Simpson 1/3 | Integration | [`src/algorithm/simpson_one_third/`](src/algorithm/simpson_one_third/) | [`input.txt`](src/algorithm/simpson_one_third/input.txt) | [`output.txt`](src/algorithm/simpson_one_third/output.txt) |
 | Simpson 3/8 | Integration | [`src/algorithm/simpson_three_eight/`](src/algorithm/simpson_three_eight/) | [`input.txt`](src/algorithm/simpson_three_eight/input.txt) | [`output.txt`](src/algorithm/simpson_three_eight/output.txt) |
@@ -378,4 +378,5 @@ Sample Output:
 ```
 
 Links: [folder](src/algorithm/simpson_three_eight/) • [theory](src/algorithm/simpson_three_eight/theory.txt) • [sample input](src/algorithm/simpson_three_eight/input.txt) • [sample output](src/algorithm/simpson_three_eight/output.txt) • [back to top](#numerical-calculator)
+
 
